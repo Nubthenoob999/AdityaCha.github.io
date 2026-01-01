@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-label="OpenRocket Monte Carlo banner placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#23324a" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="500" fill="url(#bg)"/>
+  <rect width="1600" height="500" fill="url(#grid)" opacity="0.55"/>
+  <g opacity="0.9" stroke="#e5e7eb" stroke-width="3" fill="none">
+    <path d="M300 380 C 520 260, 740 240, 900 210 C 1100 170, 1260 160, 1400 140" />
+    <path d="M300 400 C 520 300, 760 280, 920 250 C 1120 215, 1280 205, 1400 190" opacity="0.5"/>
+  </g>
+  <g transform="translate(1200,120)" opacity="0.9">
+    <rect x="-10" y="-10" width="260" height="120" rx="10" fill="#0b1220" stroke="#334155"/>
+    <text x="20" y="35" fill="#e5e7eb" font-family="ui-sans-serif, system-ui" font-size="22">Placeholder banner</text>
+    <text x="20" y="70" fill="#9ca3af" font-family="ui-sans-serif, system-ui" font-size="16">Replace with your image</text>
+  </g>
+</svg>

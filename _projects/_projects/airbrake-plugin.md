@@ -1,18 +1,10 @@
 ---
 title: "6DOF Airbrake Simulation Plugin"
-excerpt: "Java plugin for OpenRocket that injects CFD-derived airbrake aero forces/moments into the sim loop."
+excerpt: "Deprecated file kept for history. Use the project page at /projects/openrocket-airbrakes-plugin/."
+published: false
 ---
 
-## What it is
-Brief description.
+This file lives under a nested underscore folder and is not part of the active `projects` collection.
 
-## What I owned
-- Bullet
-- Bullet
-
-## Tech
-Java, Gradle, OpenRocket plugin API, CFD tables (CSV)
-
-## Links
-- Code: https://github.com/YOURUSERNAME/YOURREPO
-- Report/Demo: (link)
+Active page  
+- /projects/openrocket-airbrakes-plugin/

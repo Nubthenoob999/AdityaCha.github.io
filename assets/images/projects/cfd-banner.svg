@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-label="CFD Projects banner placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#23324a" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="contour" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0.0"/>
+      <stop offset="0.4" stop-color="#60a5fa" stop-opacity="0.6"/>
+      <stop offset="0.7" stop-color="#a78bfa" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="500" fill="url(#bg)"/>
+  <rect width="1600" height="500" fill="url(#grid)" opacity="0.55"/>
+  <path d="M240 320 C 420 210, 680 170, 980 180 C 1220 190, 1360 230, 1460 290"
+        fill="none" stroke="url(#contour)" stroke-width="18" opacity="0.9"/>
+  <g transform="translate(1180,120)" opacity="0.9">
+    <rect x="-10" y="-10" width="320" height="120" rx="10" fill="#0b1220" stroke="#334155"/>
+    <text x="20" y="35" fill="#e5e7eb" font-family="ui-sans-serif, system-ui" font-size="22">Placeholder banner</text>
+    <text x="20" y="70" fill="#9ca3af" font-family="ui-sans-serif, system-ui" font-size="16">Replace with your image</text>
+  </g>
+</svg>
