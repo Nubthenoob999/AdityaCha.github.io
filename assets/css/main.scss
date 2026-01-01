@@ -25,8 +25,8 @@
 
   /* Layout and type tuning */
   --content-max: 1320px;
-  --content-gutter: clamp(1rem, 2.2vw, 1.75rem);
-  --measure: 92ch;
+  --content-gutter: clamp(0.75rem, 1.6vw, 1.15rem);
+  --measure: 110ch;
 }
 
 html {
@@ -48,6 +48,37 @@ body {
 
 @media (min-width: 80em) {
   body { font-size: 0.93rem; }
+}
+
+/* Increase usable page width and keep it centered */
+.masthead__inner-wrap,
+.page__inner-wrap,
+.archive,
+.page__footer footer,
+.initial-content {
+  width: 100%;
+  max-width: var(--content-max);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--content-gutter);
+  padding-right: var(--content-gutter);
+}
+
+/* Let content blocks breathe while staying readable and centered */
+.page__content {
+  max-width: none;
+}
+
+.page__content > p,
+.page__content > ul,
+.page__content > ol,
+.page__content > pre,
+.page__content > table,
+.page__content > blockquote,
+.page__content > .notice {
+  max-width: var(--measure);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Typography polish */
@@ -350,27 +381,4 @@ hr {
   border-color: var(--border);
 }
 
-/* Increase usable page width */
-.masthead__inner-wrap,
-.page__inner-wrap,
-.archive,
-.page__footer footer {
-  max-width: var(--content-max);
-  padding-left: var(--content-gutter);
-  padding-right: var(--content-gutter);
-}
-
-/* Let content blocks breathe while staying readable */
-.page__content {
-  max-width: none;
-}
-
-.page__content > p,
-.page__content > ul,
-.page__content > ol,
-.page__content > pre,
-.page__content > table,
-.page__content > blockquote,
-.page__content > .notice {
-  max-width: var(--measure);
-}
+/* Center the main layout wrappers, reduce side spacing, and center the constrained text blocks. Also add front matter at the top so Jekyll compiles this SCSS. */
