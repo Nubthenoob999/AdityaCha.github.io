@@ -8,7 +8,7 @@ classes: wide
 ## Download
 
 PDF path placeholder  
-- `/assets/resume/Aditya_Chadha_Resume.pdf`
+- `{{ "/assets/resume/Aditya_Chadha_Resume.pdf" | relative_url }}`
 
 To add your PDF  
 1. Place the file at `assets/resume/Aditya_Chadha_Resume.pdf`  
@@ -16,7 +16,7 @@ To add your PDF
 3. Verify the link below
 
 Resume link  
-- [Aditya Chadha Resume PDF](/assets/resume/Aditya_Chadha_Resume.pdf)
+- [Aditya Chadha Resume PDF]({{ "/assets/resume/Aditya_Chadha_Resume.pdf" | relative_url }})
 
 ## Summary
 
@@ -38,4 +38,4 @@ Resume link
 
 - [ADD DETAIL FROM RESUME]  
 - [ADD DETAIL FROM RESUME]  
-- [ADD DETAIL FROM RESUME]  
+- [ADD DETAIL FROM RESUME]

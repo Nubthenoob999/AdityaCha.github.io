@@ -1,11 +1,12 @@
 title: "Aditya Chadha"
 description: "Aerospace simulation and software engineering for flight systems"
 url: "https://adityacha.github.io"
-baseurl: ""
+baseurl: "/AdityaCha.github.io"
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-feed

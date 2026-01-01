@@ -62,4 +62,4 @@ Typical outputs for a rocketry Monte Carlo workflow include
 ## Links
 
 - Detailed repo documentation at https://github.com/NCSU-High-Powered-Rocketry-Club/OpenRocket-Monte-Carlo  
-- Project list at [/projects/](/projects/)
+- Project list at [{{ "/projects/" | relative_url }}]({{ "/projects/" | relative_url }})

@@ -56,4 +56,4 @@ Responsible validation steps for a plugin like this usually include
 ## Links
 
 - Repo at https://github.com/NCSU-High-Powered-Rocketry-Club/OpenRocket-Airbrakes-Plugin  
-- Project list at [/projects/](/projects/)
+- Project list at [{{ "/projects/" | relative_url }}]({{ "/projects/" | relative_url }})
