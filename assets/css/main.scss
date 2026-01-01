@@ -234,30 +234,34 @@ summary:focus-visible {
 }
 
 /* Buttons */
+/* Cover Minimal Mistakes variants used in hero actions and feature rows */
 .btn,
-.btn--primary {
-  background: var(--accent);
-  border-color: transparent;
-  color: #ffffff;
-  border-radius: 10px;
+.btn--primary,
+.btn--light-outline,
+.btn--inverse,
+.btn--success,
+.btn--warning,
+.btn--danger,
+.btn--info {
+  /* ...keep your existing color, radius rules if present... */
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.7rem 1.05rem;
-  line-height: 1.15;
+
+  padding: 0.7rem 1.1rem;
+  min-height: 2.5rem;
+
+  line-height: 1.2;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
+  text-decoration: none;
 }
 
-.btn:hover,
-.btn--primary:hover {
-  background: var(--accent-2);
-  color: #0d1117;
-}
-
-.btn:focus-visible,
-.btn--primary:focus-visible {
-  box-shadow: var(--focus-ring);
+/* If your earlier rule set white-space: nowrap, this overrides it */
+.btn *,
+.btn--primary *,
+.btn--light-outline * {
+  white-space: normal;
 }
 
 /* Code blocks */
