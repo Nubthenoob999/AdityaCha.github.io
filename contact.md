@@ -12,4 +12,4 @@ LinkedIn
 - https://www.linkedin.com/in/adityachadha03
 
 Notes  
-- If you want a contact form, add Formspree or a similar service and link it here  
+- If you want a contact form, add Formspree or a similar service and link it here

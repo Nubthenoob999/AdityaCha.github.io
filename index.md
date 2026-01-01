@@ -2,6 +2,7 @@
 layout: home
 title: "Home"
 excerpt: "Aerospace simulation and software engineering for flight systems"
+classes: wide
 header:
   overlay_color: "#111827"
   overlay_filter: "0.2"

@@ -47,6 +47,11 @@ defaults:
       toc_sticky: true
       share: false
       related: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      classes: wide
 
 include:
   - _pages

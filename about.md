@@ -47,4 +47,4 @@ Resume text is not included in this repo yet. Add your resume content and replac
 - [ADD DETAIL FROM RESUME]  
 
 ### Other
-- [ADD DETAIL FROM RESUME]  
+- [ADD DETAIL FROM RESUME]

@@ -1,6 +1,7 @@
 ---
 title: "CFD Projects and Aerothermal Analysis"
 excerpt: "A portfolio hub for CFD studies, aerothermal analysis, and automation workflows with placeholders for future links."
+classes: wide
 tags:
   - CFD
   - Aerospace

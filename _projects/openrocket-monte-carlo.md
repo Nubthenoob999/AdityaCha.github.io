@@ -12,6 +12,7 @@ header:
   overlay_color: "#111827"
   caption: "Replace this banner by updating assets images projects"
 teaser: /assets/images/projects/montecarlo-thumb.svg
+classes: wide
 ---
 
 ## Overview
