@@ -155,6 +155,7 @@ summary:focus-visible {
   border-radius: var(--radius);
   overflow: hidden;
   transition: transform 140ms ease, background-color 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+  padding: 1rem;
 }
 
 .archive__item:hover {
@@ -168,6 +169,17 @@ summary:focus-visible {
   display: block;
   width: 100%;
   height: auto;
+}
+
+/* Keep teaser images full bleed when present */
+.archive__item-teaser {
+  margin: -1rem -1rem 1rem;
+}
+
+/* Optional breathing room for linked titles */
+.archive__item-title a {
+  display: inline-block;
+  padding: 0.15rem 0;
 }
 
 .archive__item-title a {
@@ -213,6 +225,13 @@ summary:focus-visible {
   border-color: transparent;
   color: #ffffff;
   border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.05rem;
+  line-height: 1.15;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .btn:hover,
