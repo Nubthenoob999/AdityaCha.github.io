@@ -7,8 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-{% for p in site.projects %}
-### [{{ p.title }}]({{ p.url }})
-{{ p.excerpt }}
-
-{% endfor %}
+A selection of work in simulation tooling and aerospace analysis.

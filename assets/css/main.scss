@@ -1,0 +1,313 @@
+---
+# Only the main Sass file needs front matter
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Dark modern tokens */
+:root {
+  --bg: #0d1117;
+  --surface-1: #161b22;
+  --surface-2: #1f242c;
+  --border: #30363d;
+  --text: #e6edf3;
+  --muted: #8b949e;
+
+  --accent: #1f6feb;
+  --accent-2: #79c0ff;
+
+  --success: #2ea043;
+  --danger: #f85149;
+  --warning: #d29922;
+
+  --radius: 14px;
+  --focus-ring: 0 0 0 3px rgba(121, 192, 255, 0.35);
+  --shadow-raised: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+html {
+  background: var(--bg);
+  color-scheme: dark;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+}
+
+/* Typography polish */
+h1, h2, h3, h4 {
+  color: var(--text);
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.page__content p,
+.page__content li {
+  color: var(--text);
+}
+
+.page__content .notice,
+.page__content .notice--primary,
+.page__content .notice--info,
+.page__content .notice--warning,
+.page__content .notice--success,
+.page__content .notice--danger {
+  border-radius: var(--radius);
+  border-color: var(--border);
+}
+
+/* Links */
+a {
+  color: var(--accent);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--accent-2);
+  text-decoration: underline;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 3px;
+}
+
+/* Masthead and nav */
+.masthead {
+  background: var(--surface-1);
+  border-bottom: 1px solid var(--border);
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav a {
+  color: var(--text);
+}
+
+.greedy-nav a:hover,
+.greedy-nav a:focus-visible {
+  color: var(--accent-2);
+  text-decoration: underline;
+}
+
+/* Footer */
+.page__footer {
+  background: var(--surface-1);
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}
+
+.page__footer a {
+  color: var(--text);
+}
+
+.page__footer a:hover,
+.page__footer a:focus-visible {
+  color: var(--accent-2);
+  text-decoration: underline;
+}
+
+/* Raised surfaces for common blocks */
+.sidebar,
+.toc,
+.author__urls-wrapper,
+.page__related,
+.page__comments,
+.archive__subtitle {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.toc {
+  padding: 0.9rem;
+}
+
+.toc .toc__menu a {
+  color: var(--muted);
+}
+
+.toc .toc__menu a:hover,
+.toc .toc__menu a:focus-visible {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+/* Collection grid cards */
+.archive__item {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: transform 140ms ease, background-color 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.archive__item:hover {
+  background: var(--surface-2);
+  transform: translateY(-3px);
+  border-color: rgba(121, 192, 255, 0.35);
+  box-shadow: var(--shadow-raised);
+}
+
+.archive__item-teaser img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.archive__item-title a {
+  color: var(--text);
+}
+
+.archive__item-title a:hover,
+.archive__item-title a:focus-visible {
+  color: var(--accent-2);
+  text-decoration: underline;
+}
+
+.archive__item-excerpt {
+  color: var(--muted);
+}
+
+/* Feature row cards on home */
+.feature__item {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  padding: 1rem;
+  transition: transform 140ms ease, background-color 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.feature__item:hover {
+  background: var(--surface-2);
+  transform: translateY(-3px);
+  border-color: rgba(121, 192, 255, 0.35);
+  box-shadow: var(--shadow-raised);
+}
+
+.feature__item .feature__title,
+.feature__item .feature__title a {
+  color: var(--text);
+}
+
+/* Buttons */
+.btn,
+.btn--primary {
+  background: var(--accent);
+  border-color: transparent;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.btn:hover,
+.btn--primary:hover {
+  background: var(--accent-2);
+  color: #0d1117;
+}
+
+.btn:focus-visible,
+.btn--primary:focus-visible {
+  box-shadow: var(--focus-ring);
+}
+
+/* Code blocks */
+code,
+kbd,
+pre,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+code {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(48, 54, 61, 0.9);
+  border-radius: 8px;
+  padding: 0.15em 0.35em;
+}
+
+pre {
+  background: #0b0f14;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  overflow: auto;
+}
+
+pre code {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+/* Tables */
+table {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+thead {
+  background: var(--surface-1);
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--border);
+}
+
+tbody tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* Forms */
+input,
+textarea,
+select {
+  background: var(--surface-1);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--muted);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--accent);
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+fieldset {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+/* Reduce overly bright separators */
+hr {
+  border-color: var(--border);
+}

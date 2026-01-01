@@ -1,0 +1,34 @@
+/* Core palette */
+$background-color: #0d1117 !default;
+$text-color: #e6edf3 !default;
+$muted-text-color: #8b949e !default;
+
+$primary-color: #1f6feb !default;
+$link-color: #1f6feb !default;
+$link-color-hover: #79c0ff !default;
+$link-color-visited: #1f6feb !default;
+
+$border-color: #30363d !default;
+
+/* Surfaces */
+$masthead-background-color: #161b22 !default;
+$footer-background-color: #161b22 !default;
+
+/* Code */
+$code-background-color: #0b0f14 !default;
+$code-background-color-dark: #0b0f14 !default;
+$code-text-color: #e6edf3 !default;
+
+/* Forms */
+$form-background-color: #161b22 !default;
+
+/* Notices */
+$success-color: #2ea043 !default;
+$warning-color: #d29922 !default;
+$danger-color: #f85149 !default;
+
+/* Typography */
+$sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif !default;
+
+/* Minor theme tuning */
+$global-radius: 14px !default;
