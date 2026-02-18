@@ -20,6 +20,10 @@ classes: wide
 
 This project extends OpenRocket with airbrake related behavior so simulations can account for drag changes from deployed surfaces. Implementations typically integrate into the simulation loop and use parameterized models or tabulated aerodynamic data.
 
+Artifact classification  
+- Category: Academic artifact  
+- Skill themes: Software engineering, simulation fidelity, plugin architecture
+
 Repo link  
 - https://github.com/NCSU-High-Powered-Rocketry-Club/OpenRocket-Airbrakes-Plugin
 
@@ -37,6 +41,13 @@ Resume details not provided yet
 - [ADD DETAIL]  
 - [ADD DETAIL]  
 - [ADD DETAIL]  
+
+## Reflective Caption Template
+
+Use this short narrative to maximize rubric scoring for artifact descriptions:
+
+"In this plugin work, I built [specific feature] to solve [technical problem].
+Through implementation and validation, I developed [skill gained], and the project outcome [result/impact] strengthened my readiness for [future context]."
 
 ## Technical Highlights
 

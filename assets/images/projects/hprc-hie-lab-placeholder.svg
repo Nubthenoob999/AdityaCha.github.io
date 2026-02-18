@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="HPRC lab placeholder">
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <rect x="80" y="80" width="1040" height="515" fill="none" stroke="#475569" stroke-width="3" stroke-dasharray="12 10"/>
+  <text x="600" y="320" fill="#cbd5e1" font-size="42" text-anchor="middle" font-family="Arial, sans-serif">HPRC Lab Photo Placeholder</text>
+  <text x="600" y="375" fill="#94a3b8" font-size="24" text-anchor="middle" font-family="Arial, sans-serif">Replace with team integration image</text>
+</svg>

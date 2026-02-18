@@ -38,6 +38,9 @@ I’m **Aditya Chadha**. I build simulation tooling for aerospace workflows and 
 
 Quick links  
 - Projects at [{{ "/projects/" | relative_url }}]({{ "/projects/" | relative_url }})  
+- Portfolio Evidence template at [{{ "/portfolio-evidence/" | relative_url }}]({{ "/portfolio-evidence/" | relative_url }})  
+- Culminating Reflection template at [{{ "/reflection/" | relative_url }}]({{ "/reflection/" | relative_url }})  
+- Presentation Prep at [{{ "/presentation-prep/" | relative_url }}]({{ "/presentation-prep/" | relative_url }})  
 - LinkedIn at https://www.linkedin.com/in/adityachadha03  
 - Email at adityachadha2203@gmail.com  
 
@@ -48,7 +51,9 @@ Quick links
 ## Skills
 
 Software  
-- [ADD DETAIL FROM RESUME]  
+- Simulation toolchain architecture  
+- Workflow automation and reproducibility  
+- Technical documentation and reporting  
 
 Simulation and analysis  
 - OpenRocket simulation workflows  
@@ -58,14 +63,15 @@ Simulation and analysis
 Programming  
 - Java  
 - Python  
-- [ADD DETAIL FROM RESUME]  
+- Data analysis scripting and post-processing  
 
 Other  
-- [ADD DETAIL FROM RESUME]  
+- Team collaboration and technical communication  
+- Iterative engineering design reviews  
 
 ## Achievements
 
-- [ADD ACHIEVEMENT FROM RESUME]  
-- [ADD ACHIEVEMENT FROM RESUME]  
-- [ADD ACHIEVEMENT FROM RESUME]  
-- [ADD ACHIEVEMENT FROM RESUME]
+- OpenRocket Monte Carlo workflow contribution for flight uncertainty exploration  
+- Airbrakes simulation plugin contribution for higher-fidelity trajectory studies  
+- CFD and aerothermal project organization for reusable analysis workflows  
+- Portfolio framework aligned to evidence, reflection, and presentation readiness

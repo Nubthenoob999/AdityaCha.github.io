@@ -16,7 +16,28 @@ teaser: /assets/images/projects/cfd-thumb.svg
 
 ## Overview
 
-This page is a hub for CFD and aerothermal work. Replace the placeholders with links to reports, repos, and images as you publish them.
+This page is a hub for CFD and aerothermal work. It now includes a completed CFD proposal artifact drawn from BEFAST Lab research.
+
+Artifact classification  
+- Category: Academic artifact hub (can include linked sub-artifacts)  
+- Skill themes: Fluid dynamics analysis, thermal reasoning, workflow automation
+
+Reflective caption template for each linked sub-artifact  
+- Problem context: [what was analyzed and why]  
+- Method: [tools, assumptions, and model setup]  
+- Outcome: [key result and design implication]  
+- Growth: [what capability this developed]
+
+## Featured CFD Proposal Artifact
+
+- [CFD Aerospike Proposal and Thermal Trade Study]({{ "/projects/cfd-aerospike-proposal/" | relative_url }})
+- Linked HIE evidence: [HIE 2: BEFAST Lab Research]({{ "/hie/befast-lab-research/" | relative_url }})
+
+Proposal summary  
+- Simulated aerospike geometries across Mach 3 to Mach 5 with thermal-load focus  
+- Quantified peak heat-flux ranges on the order of 3 to 5 MW for decision framing  
+- Proposed hot-pressed silicon nitride for thermal feasibility  
+- Evaluated drag/apogee trends and integrated findings into a deployable concept design
 
 ## Tooling
 
@@ -35,8 +56,8 @@ Focus areas
 - Sensitivity to angle of attack and surface roughness  
 
 Add links  
-- [ADD LINK]  
-- [ADD LINK]  
+- [CFD Aerospike Proposal and Thermal Trade Study]({{ "/projects/cfd-aerospike-proposal/" | relative_url }})  
+- [HIE 2: BEFAST Lab Research]({{ "/hie/befast-lab-research/" | relative_url }})  
 
 ## Internal Flow and Nozzles
 

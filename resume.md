@@ -7,8 +7,8 @@ classes: wide
 
 ## Download
 
-PDF path placeholder  
-- `{{ "/assets/resume/Aditya_Chadha_Resume.pdf" | relative_url }}`
+PDF path  
+- {{ "/assets/resume/Aditya_Chadha_Resume.pdf" | relative_url }}
 
 To add your PDF  
 1. Place the file at `assets/resume/Aditya_Chadha_Resume.pdf`  
@@ -18,24 +18,28 @@ To add your PDF
 Resume link  
 - [Aditya Chadha Resume PDF]({{ "/assets/resume/Aditya_Chadha_Resume.pdf" | relative_url }})
 
+Supporting pages  
+- Portfolio Evidence: [{{ "/portfolio-evidence/" | relative_url }}]({{ "/portfolio-evidence/" | relative_url }})  
+- Culminating Reflection: [{{ "/reflection/" | relative_url }}]({{ "/reflection/" | relative_url }})
+
 ## Summary
 
-- [ADD DETAIL FROM RESUME]  
-- [ADD DETAIL FROM RESUME]  
-- [ADD DETAIL FROM RESUME]  
+- [2-3 sentence professional summary from your resume]  
+- [Primary strengths relevant to aerospace/simulation]  
+- [Career direction statement]  
 
 ## Experience highlights
 
-- [ADD DETAIL FROM RESUME]  
-- [ADD DETAIL FROM RESUME]  
-- [ADD DETAIL FROM RESUME]  
+- [Role/project] + action + measurable outcome  
+- [Role/project] + action + measurable outcome  
+- [Role/project] + action + measurable outcome  
 
 ## Education
 
-- [ADD DETAIL FROM RESUME]  
+- [Degree], [School], [Grad date]  
 
 ## Leadership and achievements
 
-- [ADD DETAIL FROM RESUME]  
-- [ADD DETAIL FROM RESUME]  
-- [ADD DETAIL FROM RESUME]
+- [Leadership item with concrete impact]  
+- [Achievement item with context and outcome]  
+- [Recognition/certification/publication if applicable]

@@ -11,29 +11,45 @@ toc_sticky: true
 
 I am an aerospace focused engineer working across simulation tooling and analysis. My work centers on making flight predictions more actionable through better modeling, repeatable workflows, and clear outputs.
 
-Resume text is not included in this repo yet. Add your resume content and replace the placeholders below.
+This page is structured as a final-draft template. Replace prompts with your exact resume-based details.
 
 ## Experience
 
-### [ADD ROLE] at [ADD ORG]
-- [ADD DETAIL]  
-- [ADD DETAIL]  
-- [ADD DETAIL]  
+### [Role Title] at [Organization]
+- Scope: [team/project context]  
+- Key actions: [tools, methods, deliverables]  
+- Measurable outcomes: [metric/result/impact]  
 
-### [ADD ROLE] at [ADD ORG]
-- [ADD DETAIL]  
-- [ADD DETAIL]  
+### [Role Title] at [Organization]
+- Scope: [team/project context]  
+- Key actions: [tools, methods, deliverables]  
+- Measurable outcomes: [metric/result/impact]  
 
 ## Education
 
-- [ADD DEGREE] at [ADD SCHOOL]  
-- [ADD GRAD YEAR]  
-- [ADD RELEVANT COURSES]  
+- [Degree] at [School]  
+- Graduation: [Month Year]  
+- Relevant coursework: [Course 1], [Course 2], [Course 3]  
+
+## Development Themes
+
+### Technical and Analytical Growth
+- [CFD Aerospike Proposal and Thermal Trade Study]({{ "/projects/cfd-aerospike-proposal/" | relative_url }}) + translated thermal-fluids simulation outputs into material and integration decisions.  
+- [Artifact/reference] + one-line lesson learned  
+
+### Leadership and Collaboration
+- [HIE 3: HPRC Aerodynamics Lead]({{ "/hie/hprc-aerodynamics-lead/" | relative_url }}) + led a club subsystem team and improved integration discipline under competition pressure.  
+- [HIE 1: Ontic Internship]({{ "/hie/ontic-engineering-internship/" | relative_url }}) + collaborated across interns, production teams, and leadership while managing a high-visibility project setback.  
+
+### Communication and Professional Identity
+- [HIE 1: Ontic Internship]({{ "/hie/ontic-engineering-internship/" | relative_url }}) + repeated technical presentations to upper management strengthened clarity and confidence.  
+- [HIE 2: BEFAST Lab Research]({{ "/hie/befast-lab-research/" | relative_url }}) + improved research communication by presenting model assumptions, limitations, and credible result boundaries.  
 
 ## Skills
 
 ### Software
-- [ADD DETAIL FROM RESUME]  
+- Simulation workflow tooling  
+- Data post-processing and reporting  
 
 ### Simulation and analysis
 - OpenRocket modeling and simulation workflows  
@@ -44,7 +60,8 @@ Resume text is not included in this repo yet. Add your resume content and replac
 ### Programming
 - Java  
 - Python  
-- [ADD DETAIL FROM RESUME]  
+- [Additional language/tool from resume]  
 
 ### Other
-- [ADD DETAIL FROM RESUME]
+- Technical communication  
+- Team coordination and project ownership
