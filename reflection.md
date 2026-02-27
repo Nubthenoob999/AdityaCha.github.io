@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 ---
 
-This page is your culminating reflection essay template. Replace all prompts with your final writing.
+This page captures the culminating reflection for the portfolio and connects major artifacts to long-term growth.
 
 ## 1) Starting Point
 
@@ -45,7 +45,7 @@ Overall, this portfolio shows how I developed from [starting point] to [current 
 
 ---
 
-### Final Submission Check
+### Final Quality Check
 
 - Reflection is complete paragraphs, not bullet fragments
 - Reflection directly references multiple artifacts

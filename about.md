@@ -11,7 +11,7 @@ toc_sticky: true
 
 I am an aerospace focused engineer working across simulation tooling and analysis. My work centers on making flight predictions more actionable through better modeling, repeatable workflows, and clear outputs.
 
-This page is structured as a final-draft template. Replace prompts with your exact resume-based details.
+This page summarizes my background, technical growth, and professional direction.
 
 ## Experience
 

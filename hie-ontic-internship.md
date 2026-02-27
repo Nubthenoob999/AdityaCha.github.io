@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 ---
 
-This page documents my first High Impact Experience artifact and is aligned to the portfolio rubric requirement for reflective, descriptive captions.
+This page documents my first High Impact Experience artifact with reflective and descriptive project context.
 
 ## Experience Snapshot
 
@@ -37,7 +37,7 @@ After leadership approved an onsite vendor demonstration, the system underperfor
 
 This setback was a defining growth moment. I learned that strong research must be paired with rigorous real-world validation before broad rollout expectations are set. The experience strengthened my resilience, humility, and ability to recover professionally after visible project disappointment.
 
-## Skills Gained (Rubric-Aligned)
+## Skills Gained
 
 - **Technical analysis:** structured feasibility evaluation and evidence-based recommendation writing
 - **Communication:** recurring presentations of technical findings to cross-level stakeholders

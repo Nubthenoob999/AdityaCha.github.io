@@ -9,7 +9,7 @@ classes: wide
 
 A selection of work in simulation tooling and aerospace analysis.
 
-Use this page to showcase project artifacts with clear, reflective captions. For rubric alignment, pair this with the full evidence tracker and culminating reflection.
+Each project page includes context, technical approach, outcomes, and a short reflection.
 
 Supporting pages  
 - Portfolio Evidence tracker: [{{ "/portfolio-evidence/" | relative_url }}]({{ "/portfolio-evidence/" | relative_url }})  

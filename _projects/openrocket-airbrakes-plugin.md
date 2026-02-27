@@ -42,9 +42,9 @@ Resume details not provided yet
 - [ADD DETAIL]  
 - [ADD DETAIL]  
 
-## Reflective Caption Template
+## Reflection Prompt
 
-Use this short narrative to maximize rubric scoring for artifact descriptions:
+Use this short narrative to summarize your contribution and growth:
 
 "In this plugin work, I built [specific feature] to solve [technical problem].
 Through implementation and validation, I developed [skill gained], and the project outcome [result/impact] strengthened my readiness for [future context]."

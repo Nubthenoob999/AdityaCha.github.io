@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 ---
 
-Use this page to rehearse for the oral presentation section of the rubric.
+Use this page to rehearse for the portfolio oral presentation.
 
 ## Presentation Structure (5-7 Minutes)
 
@@ -16,7 +16,7 @@ Use this page to rehearse for the oral presentation section of the rubric.
 - Introduce yourself and your focus area
 - State one sentence on what this portfolio proves about your growth
 
-Template:
+Suggested opening:
 
 "Hi, I am [name], and my portfolio highlights growth in [focus area]. Across these artifacts, I demonstrate development in [skill 1], [skill 2], and [skill 3]."
 
@@ -43,7 +43,7 @@ End with a forward-looking statement:
 
 "This portfolio captures where I started, how I grew, and the direction I am taking next in [field/goal]."
 
-## Delivery Rubric Practice Checklist
+## Delivery Practice Checklist
 
 ### Audience Connection
 

@@ -38,8 +38,8 @@ I’m **Aditya Chadha**. I build simulation tooling for aerospace workflows and 
 
 Quick links  
 - Projects at [{{ "/projects/" | relative_url }}]({{ "/projects/" | relative_url }})  
-- Portfolio Evidence template at [{{ "/portfolio-evidence/" | relative_url }}]({{ "/portfolio-evidence/" | relative_url }})  
-- Culminating Reflection template at [{{ "/reflection/" | relative_url }}]({{ "/reflection/" | relative_url }})  
+- Portfolio Evidence at [{{ "/portfolio-evidence/" | relative_url }}]({{ "/portfolio-evidence/" | relative_url }})  
+- Culminating Reflection at [{{ "/reflection/" | relative_url }}]({{ "/reflection/" | relative_url }})  
 - Presentation Prep at [{{ "/presentation-prep/" | relative_url }}]({{ "/presentation-prep/" | relative_url }})  
 - LinkedIn at https://www.linkedin.com/in/adityachadha03  
 - Email at adityachadha2203@gmail.com  

@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 ---
 
-This page documents my second High Impact Experience artifact and follows the rubric requirement for reflective, evidence-based artifact descriptions.
+This page documents my second High Impact Experience artifact with reflective, evidence-based project details.
 
 ## Experience Snapshot
 
@@ -43,7 +43,7 @@ A key pressure point occurred at semester start, when a major project update req
 
 This HIE reinforced that credible CFD work is not just producing plots; it is validating assumptions, checking trend realism, and understanding which model choices drive outcomes. I also improved collaboration by asking better-structured technical questions, which accelerated troubleshooting and reduced wasted iteration time.
 
-## Skills Gained (Rubric-Aligned)
+## Skills Gained
 
 - **Technical depth:** thermal-fluids simulation workflow design for high-enthalpy propulsion contexts
 - **Analytical rigor:** boundary-condition validation, model-choice reasoning, and result credibility checks

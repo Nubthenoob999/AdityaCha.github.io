@@ -22,7 +22,7 @@ Artifact classification
 - Category: Academic artifact hub (can include linked sub-artifacts)  
 - Skill themes: Fluid dynamics analysis, thermal reasoning, workflow automation
 
-Reflective caption template for each linked sub-artifact  
+Reflection prompt for each linked sub-artifact  
 - Problem context: [what was analyzed and why]  
 - Method: [tools, assumptions, and model setup]  
 - Outcome: [key result and design implication]  

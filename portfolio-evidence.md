@@ -7,9 +7,9 @@ toc: true
 toc_sticky: true
 ---
 
-Use this page as your scoring template for the portfolio rubric. Replace placeholder text with your actual artifacts and reflections.
+Use this page to organize portfolio artifacts with concise evidence links and reflective captions.
 
-## Rubric Target Checklist
+## Portfolio Planning Checklist
 
 - Include **10 to 12 total artifacts**
 - Include **at least 5 academic artifacts**
@@ -20,7 +20,7 @@ Use this page as your scoring template for the portfolio rubric. Replace placeho
 - Keep layout clear, consistent, and easy to navigate
 - Ensure all links work
 
-## Artifact Tracker (Score-Maximizing Template)
+## Artifact Tracker
 
 | # | Artifact Title | Category (Academic/Other/HIE) | Skill Theme | Evidence Link | Reflective Caption (2-4 sentences) |
 |---|---|---|---|---|---|
@@ -39,7 +39,7 @@ Use this page as your scoring template for the portfolio rubric. Replace placeho
 
 ## Organization by Developmental Skills
 
-For highest rubric alignment, group artifacts by growth themes, not only by chronology.
+Group artifacts by growth themes, not only by chronology.
 
 ### Theme A: Technical and Analytical Growth
 - [CFD Aerospike Proposal and Thermal Trade Study]({{ "/projects/cfd-aerospike-proposal/" | relative_url }}) + Combined CFD, thermal analysis, and integration design into a single evidence-based proposal workflow.

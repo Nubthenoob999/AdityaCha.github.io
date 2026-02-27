@@ -41,9 +41,9 @@ Resume details not provided yet
 - [ADD DETAIL]  
 - [ADD DETAIL]  
 
-## Reflective Caption Template
+## Reflection Prompt
 
-Use this short narrative to maximize rubric scoring for artifact descriptions:
+Use this short narrative to summarize your contribution and growth:
 
 "In this project, I implemented [specific contribution] to address [technical challenge].
 I learned how to [skill gained], and the final outcome [result/impact] improved my ability to [future-facing competency]."

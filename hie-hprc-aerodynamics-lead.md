@@ -37,7 +37,7 @@ The most difficult part of this role was balancing technical ownership with peop
 
 This experience changed how I view engineering: technical outcomes depend on communication quality, ownership structure, and consistency under pressure. I also learned that strong teams are built by distributing real responsibility, not by centralizing all work in one lead.
 
-## Skills Gained (Rubric-Aligned)
+## Skills Gained
 
 - **Leadership:** setting direction, task ownership, and accountability in a student engineering team
 - **Communication:** cross-subteam updates, faster technical clarification, and decision framing

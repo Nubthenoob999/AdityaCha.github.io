@@ -58,6 +58,6 @@ The project framed aerospike adoption as a coupled thermal-structural-performanc
 - Proposed material pathway aligned to heat-load conditions
 - Connected CFD findings to system-level integration and performance discussion
 
-## Reflective Caption (Rubric-Aligned)
+## Reflective Caption
 
 In this CFD proposal project, I evaluated aerospike geometries under Mach 3 to Mach 5 conditions to quantify both thermal risk and aerodynamic benefit. I translated simulation evidence into practical decisions about materials and deployable integration, rather than stopping at isolated contour plots. This artifact reflects growth in analytical rigor, system-level thinking, and engineering communication.
