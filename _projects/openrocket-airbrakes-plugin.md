@@ -8,11 +8,11 @@ tags:
   - Simulation
   - Aerospace
 header:
-  overlay_image: /assets/images/projects/plugin-dev/launch-vehicle-airbrakes-deployment.png
+  overlay_image: /assets/images/projects/Plugin-dev/launch-vehicle-airbrakes-deployment.png
   overlay_filter: "0.25"
   overlay_color: "#111827"
   caption: "OpenRocket airbrakes plugin workflow snapshots"
-teaser: /assets/images/projects/plugin-dev/launch-vehicle-airbrakes-deployment.png
+teaser: /assets/images/projects/Plugin-dev/launch-vehicle-airbrakes-deployment.png
 classes: wide
 ---
 
@@ -21,7 +21,7 @@ classes: wide
 This project extends OpenRocket with airbrake related behavior so simulations can account for drag changes from deployed surfaces. Implementations typically integrate into the simulation loop and use parameterized models or tabulated aerodynamic data.
 
 <figure class="portfolio-media-hero">
-  <img src="{{ '/assets/images/projects/plugin-dev/launch-vehicle-airbrakes-deployment.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/Launch%20Vechile%20AirBrakes%20Deployment.png' | relative_url }}';" alt="Airbrakes deployment visualization in OpenRocket plugin workflow" />
+  <img src="{{ '/assets/images/projects/Plugin-dev/launch-vehicle-airbrakes-deployment.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/Launch%20Vechile%20AirBrakes%20Deployment.png' | relative_url }}';" alt="Airbrakes deployment visualization in OpenRocket plugin workflow" />
   <figcaption>Placeholder caption: Add a one-line summary of what this deployment view validates.</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ In this Project I learned how to read documentation, garner advice from other pe
 - Configuration and serialization so designs can be shared and rerun  
 
 <figure class="portfolio-inline-media">
-  <img src="{{ '/assets/images/projects/plugin-dev/LandingPage.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/LandingPage.png' | relative_url }}';" alt="Airbrakes plugin landing and configuration context" />
+  <img src="{{ '/assets/images/projects/Plugin-dev/LandingPage.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/LandingPage.png' | relative_url }}';" alt="Airbrakes plugin landing and configuration context" />
   <figcaption>Placeholder caption: Add where this screen fits into your plugin configuration flow.</figcaption>
 </figure>
 
@@ -78,11 +78,11 @@ Responsible validation steps for a plugin like this usually include
 <div class="portfolio-slideshow" data-slideshow="airbrakes-gallery">
   <div class="portfolio-slideshow__viewport">
     <figure class="portfolio-slide is-active">
-      <img src="{{ '/assets/images/projects/plugin-dev/ORHistogramWithAirbrakes.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/ORHistogramWithAirbrakes.png' | relative_url }}';" alt="Airbrakes simulation histogram output" />
+      <img src="{{ '/assets/images/projects/Plugin-dev/ORHistogramWithAirbrakes.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/ORHistogramWithAirbrakes.png' | relative_url }}';" alt="Airbrakes simulation histogram output" />
       <figcaption>Histogram of apogees with the Air Brakes plugin </figcaption>
     </figure>
     <figure class="portfolio-slide">
-      <img src="{{ '/assets/images/projects/plugin-dev/Options.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/Options.png' | relative_url }}';" alt="Plugin options and parameter panel" />
+      <img src="{{ '/assets/images/projects/Plugin-dev/Options.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/Options.png' | relative_url }}';" alt="Plugin options and parameter panel" />
       <figcaption> Options </figcaption>
     </figure>
   </div>

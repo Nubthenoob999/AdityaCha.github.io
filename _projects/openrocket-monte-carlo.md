@@ -7,11 +7,11 @@ tags:
   - Monte Carlo
   - Aerospace
 header:
-  overlay_image: /assets/images/projects/plugin-dev/MonteCarloLanding.png
+  overlay_image: /assets/images/projects/Plugin-dev/MonteCarloLanding.png
   overlay_filter: "0.25"
   overlay_color: "#111827"
   caption: "OpenRocket Monte Carlo workflow snapshots"
-teaser: /assets/images/projects/plugin-dev/MonteCarloLanding.png
+teaser: /assets/images/projects/Plugin-dev/MonteCarloLanding.png
 classes: wide
 ---
 
@@ -20,7 +20,7 @@ classes: wide
 This project supports Monte Carlo style runs around an OpenRocket based flight model to study how uncertainty affects outcomes. Typical inputs include variability in mass properties, aerodynamic parameters, launch conditions, and wind profiles. Typical outputs include distributions of apogee and other flight metrics.
 
 <figure class="portfolio-media-hero">
-  <img src="/assets/images/projects/plugin-dev/MonteCarloLanding.png" alt="OpenRocket Monte Carlo workflow landing interface" />
+  <img src="/assets/images/projects/Plugin-dev/MonteCarloLanding.png" alt="OpenRocket Monte Carlo workflow landing interface" />
   <figcaption>Placeholder caption: Add a one-sentence summary of what this top image shows in your workflow.</figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ In this Project I learned how to code with a vision in mind and carry out the id
 - Reproducibility features such as fixed seeds and saved configs  
 
 <figure class="portfolio-inline-media">
-  <img src="/assets/images/projects/plugin-dev/disturbances.png" alt="Disturbance configuration view for Monte Carlo inputs" />
+  <img src="/assets/images/projects/Plugin-dev/disturbances.png" alt="Disturbance configuration view for Monte Carlo inputs" />
   <figcaption>Placeholder caption: Add what uncertainty inputs are visible here and why they matter.</figcaption>
 </figure>
 
