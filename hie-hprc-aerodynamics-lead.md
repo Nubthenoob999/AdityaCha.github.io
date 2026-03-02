@@ -9,6 +9,11 @@ toc_sticky: true
 
 This page documents my third High Impact Experience and is directly tied to my club leadership work in NC State’s High-Powered Rocketry Club (HPRC).
 
+<figure class="portfolio-media-hero">
+	<img src="/assets/images/projects/Hprc/ABM_0319.JPG" alt="HPRC team and vehicle during competition preparation" />
+	<figcaption>Placeholder caption: Add a one-sentence overview of this lead image and why it represents your leadership role.</figcaption>
+</figure>
+
 ## Experience Snapshot
 
 - **Experience type:** Student Leadership (High Impact Experience)
@@ -29,9 +34,19 @@ I have been active in HPRC for over three years, starting in my first year throu
 - Helped drive simulation-informed tradeoffs under timeline pressure during build/test cycles
 - Supported competition execution and stepped into additional aerodynamics responsibility during travel when needed
 
+<figure class="portfolio-inline-media">
+	<img src="/assets/images/projects/Hprc/ABM_0160.JPG" alt="HPRC rocket hardware and subsystem context" />
+	<figcaption>Placeholder caption: Describe what subsystem state is shown here and what decision this phase informed.</figcaption>
+</figure>
+
 ## Challenge and Leadership Growth
 
 The most difficult part of this role was balancing technical ownership with people management while also handling senior design, coursework, testing, and personal workload. I learned how to prioritize under pressure, set clearer expectations, and keep subsystem work aligned to full-vehicle milestones.
+
+<figure class="portfolio-inline-media">
+	<img src="/assets/images/projects/Hprc/DSC_0198.JPG" alt="HPRC on-site execution and team operations" />
+	<figcaption>Placeholder caption: Add a short reflection connecting this moment to communication under pressure.</figcaption>
+</figure>
 
 ## Reflection and Learning
 
@@ -52,27 +67,97 @@ HPRC leadership shifted my direction from primarily aviation toward computationa
 
 As Aerodynamics Lead in NC State’s High-Powered Rocketry Club, I guided simulation-centered airbrake development while coordinating integration across a multidisciplinary student team. The role required technical judgment, communication under pressure, and leadership through uncertainty during competition preparation. This HIE strengthened both my systems engineering mindset and my confidence in leading complex aerospace projects.
 
-## Photo and Media Section (Add Your Images)
+## HPRC Photo Slideshow
 
-Use this section to showcase club and project visuals while keeping the page presentation-ready.
+<div class="portfolio-slideshow" data-slideshow="hprc-gallery">
+	<div class="portfolio-slideshow__viewport">
+		<figure class="portfolio-slide is-active">
+			<img src="/assets/images/projects/Hprc/20250407_151005.jpg" alt="HPRC team setup in the field" />
+			<figcaption>Placeholder caption: Add context for this setup stage and your responsibilities.</figcaption>
+		</figure>
+		<figure class="portfolio-slide">
+			<img src="/assets/images/projects/Hprc/ABM_0019.JPG" alt="Rocket integration close-up" />
+			<figcaption>Placeholder caption: Add a technical note about integration constraints or checks.</figcaption>
+		</figure>
+		<figure class="portfolio-slide">
+			<img src="/assets/images/projects/Hprc/ABM_0110.JPG" alt="Rocket subsystem view" />
+			<figcaption>Placeholder caption: Add what stage of prep this image represents.</figcaption>
+		</figure>
+		<figure class="portfolio-slide">
+			<img src="/assets/images/projects/Hprc/ABM_0465.JPG" alt="Team operations during event" />
+			<figcaption>Placeholder caption: Add one leadership takeaway from this moment.</figcaption>
+		</figure>
+		<figure class="portfolio-slide">
+			<img src="/assets/images/projects/Hprc/DSC_0172.JPG" alt="Field execution environment" />
+			<figcaption>Placeholder caption: Add what changed in your process after this phase.</figcaption>
+		</figure>
+	</div>
+	<div class="portfolio-slideshow__controls">
+		<button type="button" class="portfolio-slide-btn" data-action="prev" aria-label="Previous slide">Previous</button>
+		<span class="portfolio-slide-counter" aria-live="polite">1 / 5</span>
+		<button type="button" class="portfolio-slide-btn" data-action="next" aria-label="Next slide">Next</button>
+	</div>
+</div>
 
-### Suggested Photos to Add
+## HPRC Video Highlight (First 30 Seconds)
 
-- Team integration session in lab
-- Airbrake subsystem hardware close-up
-- Simulation plot snapshot used in decision-making
-- Competition/travel photo from 2024–2025 cycle
+<figure class="portfolio-video">
+	<video id="hprc-highlight-video" controls preload="metadata">
+		<source src="/assets/images/projects/Hprc/VDF_2026.mp4" type="video/mp4" />
+		Your browser does not support the video tag.
+	</video>
+	<figcaption>Placeholder caption: Add what this clip demonstrates and why this 30-second segment matters.</figcaption>
+</figure>
 
-### Placeholder Slots
+Placeholder text to edit later: [Add 2-3 sentences connecting this footage to decision-making, team execution, and leadership growth.]
 
-![HPRC lab team photo placeholder](/assets/images/projects/hprc-hie-lab-placeholder.svg)
-*Caption to add: Team collaboration during subsystem integration.*
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		const galleries = document.querySelectorAll(".portfolio-slideshow");
+		galleries.forEach(function (gallery) {
+			if (gallery.dataset.initialized === "true") return;
+			gallery.dataset.initialized = "true";
 
-![Airbrake subsystem photo placeholder](/assets/images/projects/hprc-hie-airbrake-placeholder.svg)
-*Caption to add: Hardware configuration and integration constraints.*
+			const slides = Array.from(gallery.querySelectorAll(".portfolio-slide"));
+			const counter = gallery.querySelector(".portfolio-slide-counter");
+			const prevBtn = gallery.querySelector('[data-action="prev"]');
+			const nextBtn = gallery.querySelector('[data-action="next"]');
 
-![Simulation output photo placeholder](/assets/images/projects/hprc-hie-sim-placeholder.svg)
-*Caption to add: Simulation evidence used for aerodynamics decisions.*
+			let currentIndex = 0;
 
-![Competition photo placeholder](/assets/images/projects/hprc-hie-competition-placeholder.svg)
-*Caption to add: On-site execution and leadership in competition environment.*
+			function render(index) {
+				slides.forEach(function (slide, idx) {
+					slide.classList.toggle("is-active", idx === index);
+				});
+				if (counter) counter.textContent = (index + 1) + " / " + slides.length;
+			}
+
+			if (prevBtn) {
+				prevBtn.addEventListener("click", function () {
+					currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+					render(currentIndex);
+				});
+			}
+
+			if (nextBtn) {
+				nextBtn.addEventListener("click", function () {
+					currentIndex = (currentIndex + 1) % slides.length;
+					render(currentIndex);
+				});
+			}
+
+			render(currentIndex);
+		});
+
+		const video = document.getElementById("hprc-highlight-video");
+		if (video && video.dataset.initialized !== "true") {
+			video.dataset.initialized = "true";
+			video.addEventListener("timeupdate", function () {
+				if (video.currentTime >= 30) {
+					video.pause();
+					video.currentTime = 30;
+				}
+			});
+		}
+	});
+</script>

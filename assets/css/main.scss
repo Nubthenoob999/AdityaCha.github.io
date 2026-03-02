@@ -381,4 +381,80 @@ hr {
   border-color: var(--border);
 }
 
+/* Portfolio media blocks */
+.portfolio-media-hero,
+.portfolio-inline-media,
+.portfolio-video,
+.portfolio-slideshow {
+  max-width: var(--measure);
+  margin: 1.15rem auto;
+}
+
+.portfolio-media-hero img,
+.portfolio-inline-media img,
+.portfolio-slideshow img,
+.portfolio-video video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.portfolio-media-hero figcaption,
+.portfolio-inline-media figcaption,
+.portfolio-slideshow figcaption,
+.portfolio-video figcaption {
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin-top: 0.45rem;
+}
+
+.portfolio-slideshow {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.8rem;
+}
+
+.portfolio-slideshow__viewport {
+  min-height: 300px;
+}
+
+.portfolio-slide {
+  display: none;
+  margin: 0;
+}
+
+.portfolio-slide.is-active {
+  display: block;
+}
+
+.portfolio-slideshow__controls {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+}
+
+.portfolio-slide-btn {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 0.35rem 0.65rem;
+  cursor: pointer;
+}
+
+.portfolio-slide-btn:hover,
+.portfolio-slide-btn:focus-visible {
+  background: var(--surface-1);
+}
+
+.portfolio-slide-counter {
+  color: var(--muted);
+  align-self: center;
+  min-width: 4.6rem;
+  text-align: center;
+}
+
 /* Center the main layout wrappers, reduce side spacing, and center the constrained text blocks. Also add front matter at the top so Jekyll compiles this SCSS. */
