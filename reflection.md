@@ -17,9 +17,9 @@ At the beginning of this period, I was strongest in [area] and less confident in
 
 Across my portfolio artifacts, one of my strongest growth areas is professional communication under uncertainty and setbacks.
 
-- **Artifact example 1:** [HIE 1: Ontic Engineering Internship]({{ "/hie/ontic-engineering-internship/" | relative_url }}) and how it improved my ability to evaluate technical options, brief leadership, and recover constructively when a proposed solution underperformed in live testing.
-- **Artifact example 2:** [HIE 2: BEFAST Lab Research]({{ "/hie/befast-lab-research/" | relative_url }}) and how it improved my ability to build credible CFD workflows, validate near-wall modeling assumptions, and communicate high-pressure research progress with clearer technical framing.
-- **Artifact example 3:** [HIE 3: HPRC Aerodynamics Lead]({{ "/hie/hprc-aerodynamics-lead/" | relative_url }}) and how it strengthened my leadership under pressure, subsystem-level coordination, and communication across a multidisciplinary club team.
+- **Artifact example 1:** [Ontic Engineering Internship]({{ "/hie/ontic-engineering-internship/" | relative_url }}) and how it improved my ability to evaluate technical options, brief leadership, and recover constructively when a proposed solution underperformed in live testing.
+- **Artifact example 2:** [BEFAST Lab Research]({{ "/hie/befast-lab-research/" | relative_url }}) and how it improved my ability to build credible CFD workflows, validate near-wall modeling assumptions, and communicate high-pressure research progress with clearer technical framing.
+- **Artifact example 3:** [HPRC Aerodynamics Lead]({{ "/hie/hprc-aerodynamics-lead/" | relative_url }}) and how it strengthened my leadership under pressure, subsystem-level coordination, and communication across a multidisciplinary club team.
 
 ## 3) Challenges and Lessons Learned
 

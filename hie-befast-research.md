@@ -39,7 +39,7 @@ A key pressure point occurred at semester start, when a major project update req
 
 ## Reflection and Learning
 
-This HIE reinforced that credible CFD work is not just producing plots; it is validating assumptions, checking trend realism, and understanding which model choices drive outcomes. I also improved collaboration by asking better-structured technical questions, which accelerated troubleshooting and reduced wasted iteration time.
+This reinforced that credible CFD work is not just producing plots; it is validating assumptions, checking trend realism, and understanding which model choices drive outcomes. I also improved collaboration by asking better-structured technical questions, which accelerated troubleshooting and reduced wasted iteration time.
 
 ## Skills Gained
 
@@ -54,4 +54,4 @@ This experience sharpened my long-term direction toward a PhD in aerospace engin
 
 ## Reflective Caption (Ready to Reuse)
 
-In BEFAST Lab, I conducted CFD research on aerospike thermal trade studies and rotating detonation engine CHT workflows, where heat-transfer credibility depended on near-wall modeling decisions. I translated simulation outputs into engineering decisions, including material recommendations and deployable concept integration, while delivering under tight research deadlines. This HIE strengthened my technical rigor, communication under pressure, and commitment to doctoral-level thermal-fluids research.
+In BEFAST Lab, I conducted CFD research on aerospike thermal trade studies and rotating detonation engine CHT workflows, where heat-transfer credibility depended on near-wall modeling decisions. I translated simulation outputs into engineering decisions, including material recommendations and deployable concept integration, while delivering under tight research deadlines. This strengthened my technical rigor, communication under pressure, and commitment to doctoral-level thermal-fluids research.

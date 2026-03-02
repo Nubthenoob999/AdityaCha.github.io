@@ -77,14 +77,12 @@ This page summarizes my background, technical growth, and professional direction
 - Further proved material selection for this use case. 
 
 ### Leadership and Collaboration
-- [HIE 3: HPRC Aerodynamics Lead]({{ "/hie/hprc-aerodynamics-lead/" | relative_url }}) + led a club subsystem team and improved integration discipline under competition pressure.  
-- [HIE 1: Ontic Internship]({{ "/hie/ontic-engineering-internship/" | relative_url }}) + collaborated across interns, production teams, and leadership while managing a high-visibility project setback.  
+- [HPRC Aerodynamics Lead]({{ "/hie/hprc-aerodynamics-lead/" | relative_url }}) + led a club subsystem team and improved integration discipline under competition pressure.  
+- [Ontic Internship]({{ "/hie/ontic-engineering-internship/" | relative_url }}) + collaborated across interns, production teams, and leadership while managing a high-visibility project setback.  
 
 ### Communication and Professional Identity
-- [HIE 1: Ontic Internship]({{ "/hie/ontic-engineering-internship/" | relative_url }}) + repeated technical presentations to upper management strengthened clarity and confidence.  
-- [HIE 2: BEFAST Lab Research]({{ "/hie/befast-lab-research/" | relative_url }}) + improved research communication by presenting model assumptions, limitations, and credible result boundaries.  
-
-## Skills
+- [Ontic Internship]({{ "/hie/ontic-engineering-internship/" | relative_url }}) + repeated technical presentations to upper management strengthened clarity and confidence.  
+- [BEFAST Lab Research]({{ "/hie/befast-lab-research/" | relative_url }}) + improved research communication by presenting model assumptions, limitations, and credible result boundaries.  
 
 ### Software
 - Simulation workflow tooling  

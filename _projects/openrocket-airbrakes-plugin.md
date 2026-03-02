@@ -22,7 +22,7 @@ This project extends OpenRocket with airbrake related behavior so simulations ca
 
 <figure class="portfolio-media-hero">
   <img src="{{ '/assets/images/projects/Plugin_Dev/launch-vehicle-airbrakes-deployment.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/Launch%20Vechile%20AirBrakes%20Deployment.png' | relative_url }}';" alt="Airbrakes deployment visualization in OpenRocket plugin workflow" />
-  <figcaption>Placeholder caption: Add a one-line summary of what this deployment view validates.</figcaption>
+  <figcaption></figcaption>
 </figure>
 
 Artifact classification  
@@ -61,7 +61,7 @@ In this Project I learned how to read documentation, garner advice from other pe
 
 <figure class="portfolio-inline-media">
   <img src="{{ '/assets/images/projects/Plugin_Dev/LandingPage.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/LandingPage.png' | relative_url }}';" alt="Airbrakes plugin landing and configuration context" />
-  <figcaption>Placeholder caption: Add where this screen fits into your plugin configuration flow.</figcaption>
+  <figcaption></figcaption>
 </figure>
 
 ## Validation Approach

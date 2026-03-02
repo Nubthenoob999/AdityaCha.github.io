@@ -63,7 +63,7 @@ HPRC leadership shifted my direction from primarily aviation toward computationa
 
 ## Reflective Caption (Ready to Reuse)
 
-As Aerodynamics Lead in NC State’s High-Powered Rocketry Club, I guided simulation-centered airbrake development while coordinating integration across a multidisciplinary student team. The role required technical judgment, communication under pressure, and leadership through uncertainty during competition preparation. This HIE strengthened both my systems engineering mindset and my confidence in leading complex aerospace projects.
+As Aerodynamics Lead in NC State’s High-Powered Rocketry Club, I guided simulation-centered airbrake development while coordinating integration across a multidisciplinary student team. The role required technical judgment, communication under pressure, and leadership through uncertainty during competition preparation. This strengthened both my systems engineering mindset and my confidence in leading complex aerospace projects.
 
 ## HPRC Photo Slideshow
 
