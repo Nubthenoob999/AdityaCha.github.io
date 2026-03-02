@@ -7,11 +7,11 @@ tags:
   - Monte Carlo
   - Aerospace
 header:
-  overlay_image: /assets/images/projects/Plugin%20Dev/MonteCarloLanding.png
+  overlay_image: /assets/images/projects/plugin-dev/MonteCarloLanding.png
   overlay_filter: "0.25"
   overlay_color: "#111827"
   caption: "OpenRocket Monte Carlo workflow snapshots"
-teaser: /assets/images/projects/Plugin%20Dev/MonteCarloLanding.png
+teaser: /assets/images/projects/plugin-dev/MonteCarloLanding.png
 classes: wide
 ---
 
@@ -20,7 +20,7 @@ classes: wide
 This project supports Monte Carlo style runs around an OpenRocket based flight model to study how uncertainty affects outcomes. Typical inputs include variability in mass properties, aerodynamic parameters, launch conditions, and wind profiles. Typical outputs include distributions of apogee and other flight metrics.
 
 <figure class="portfolio-media-hero">
-  <img src="/assets/images/projects/Plugin%20Dev/MonteCarloLanding.png" alt="OpenRocket Monte Carlo workflow landing interface" />
+  <img src="/assets/images/projects/plugin-dev/MonteCarloLanding.png" alt="OpenRocket Monte Carlo workflow landing interface" />
   <figcaption>Placeholder caption: Add a one-sentence summary of what this top image shows in your workflow.</figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ I learned how to [skill gained], and the final outcome [result/impact] improved 
 - Reproducibility features such as fixed seeds and saved configs  
 
 <figure class="portfolio-inline-media">
-  <img src="/assets/images/projects/Plugin%20Dev/disturbances.png" alt="Disturbance configuration view for Monte Carlo inputs" />
+  <img src="/assets/images/projects/plugin-dev/disturbances.png" alt="Disturbance configuration view for Monte Carlo inputs" />
   <figcaption>Placeholder caption: Add what uncertainty inputs are visible here and why they matter.</figcaption>
 </figure>
 
@@ -86,15 +86,15 @@ Typical outputs for a rocketry Monte Carlo workflow include
 <div class="portfolio-slideshow" data-slideshow="monte-carlo-gallery">
   <div class="portfolio-slideshow__viewport">
     <figure class="portfolio-slide is-active">
-      <img src="/assets/images/projects/Plugin%20Dev/Options.png" alt="Monte Carlo options and parameter controls" />
+      <img src="/assets/images/projects/plugin-dev/Options.png" alt="Monte Carlo options and parameter controls" />
       <figcaption>Placeholder caption: Add what simulation options you tuned for this run set.</figcaption>
     </figure>
     <figure class="portfolio-slide">
-      <img src="/assets/images/projects/Plugin%20Dev/ORHistogramWithAirbrakes.png" alt="Histogram output from OpenRocket simulations" />
+      <img src="/assets/images/projects/plugin-dev/ORHistogramWithAirbrakes.png" alt="Histogram output from OpenRocket simulations" />
       <figcaption>Placeholder caption: Add what this distribution says about outcome spread.</figcaption>
     </figure>
     <figure class="portfolio-slide">
-      <img src="/assets/images/projects/Plugin%20Dev/LandingPage.png" alt="Workflow landing page context" />
+      <img src="/assets/images/projects/plugin-dev/LandingPage.png" alt="Workflow landing page context" />
       <figcaption>Placeholder caption: Add where this sits in your end-to-end workflow.</figcaption>
     </figure>
   </div>

@@ -7,19 +7,15 @@ classes: wide
 
 ## Download
 
-PDF path  
+Primary resume file  
 - {{ "/assets/resume/Aditya_Chadha_Resume.pdf" | relative_url }}
-
-To add your PDF  
-1. Place the file at `assets/resume/Aditya_Chadha_Resume.pdf`  
-2. Commit and push to `main`  
-3. Verify the link below
 
 Resume link  
 - [Aditya Chadha Resume PDF]({{ "/assets/resume/Aditya_Chadha_Resume.pdf" | relative_url }})
 
+<a class="btn btn--primary" href="{{ '/assets/resume/Aditya_Chadha_Resume.pdf' | relative_url }}" download>Download Resume PDF</a>
+
 Supporting pages  
-- Portfolio Evidence: [{{ "/portfolio-evidence/" | relative_url }}]({{ "/portfolio-evidence/" | relative_url }})  
 - Culminating Reflection: [{{ "/reflection/" | relative_url }}]({{ "/reflection/" | relative_url }})
 
 ## Summary

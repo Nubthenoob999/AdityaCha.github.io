@@ -3,14 +3,10 @@ main:
     url: /
   - title: "About"
     url: /about/
-  - title: "Portfolio Evidence"
-    url: /portfolio-evidence/
   - title: "Projects"
     url: /projects/
   - title: "Reflection"
     url: /reflection/
-  - title: "Presentation Prep"
-    url: /presentation-prep/
   - title: "Resume"
     url: /resume/
   - title: "Contact"
