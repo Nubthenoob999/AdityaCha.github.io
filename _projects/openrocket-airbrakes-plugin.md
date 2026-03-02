@@ -42,17 +42,15 @@ Repo link
 
 ## My Contribution
 
-Resume details not provided yet  
-- [ADD DETAIL]  
-- [ADD DETAIL]  
-- [ADD DETAIL]  
+- Went through documentation and forums to understand how to develop a plugin for Openrocket
+- Developed Logic in Java code to interoplate drag based on a .csv file of extension level, mach number, and drag for any given velocity
+- Implemented a bang bang control scheme within a code base to simulate active control withina simulation loop
+- Replicated and refined a 6DOF Runge-Kutta-4 apogee prediction algorithm to ingest values and parameters from the simulation to predict apogee throughout flight. 
+- Conducted CFD simualtions for the quantification of altitude reduction the air brakes unit can afford the launch vehicle.  
 
 ## Reflection Prompt
 
-Use this short narrative to summarize your contribution and growth:
-
-"In this plugin work, I built [specific feature] to solve [technical problem].
-Through implementation and validation, I developed [skill gained], and the project outcome [result/impact] strengthened my readiness for [future context]."
+In this Project I learned how to read documentation, garner advice from other people on forums and ask devlopers for input on how to implement code into a software. I was able to ask and corridnate with other members of my team to ask questions about how the system worked and how I could best replicate it in software. Overall this plugin has proven its worth with being able to simulate prior flights within a 1% error. 
 
 ## Technical Highlights
 
@@ -81,15 +79,11 @@ Responsible validation steps for a plugin like this usually include
   <div class="portfolio-slideshow__viewport">
     <figure class="portfolio-slide is-active">
       <img src="{{ '/assets/images/projects/plugin-dev/ORHistogramWithAirbrakes.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/ORHistogramWithAirbrakes.png' | relative_url }}';" alt="Airbrakes simulation histogram output" />
-      <figcaption>Placeholder caption: Add what trend or tradeoff this output supports.</figcaption>
+      <figcaption>Histogram of apogees with the Air Brakes plugin </figcaption>
     </figure>
     <figure class="portfolio-slide">
       <img src="{{ '/assets/images/projects/plugin-dev/Options.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/Options.png' | relative_url }}';" alt="Plugin options and parameter panel" />
-      <figcaption>Placeholder caption: Add the key tunable parameters shown here.</figcaption>
-    </figure>
-    <figure class="portfolio-slide">
-      <img src="{{ '/assets/images/projects/plugin-dev/disturbances.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/disturbances.png' | relative_url }}';" alt="Input disturbances and simulation perturbation controls" />
-      <figcaption>Placeholder caption: Add how disturbance modeling influenced your validation runs.</figcaption>
+      <figcaption> Options </figcaption>
     </figure>
   </div>
   <div class="portfolio-slideshow__controls">
@@ -98,8 +92,6 @@ Responsible validation steps for a plugin like this usually include
     <button type="button" class="portfolio-slide-btn" data-action="next" aria-label="Next slide">Next</button>
   </div>
 </div>
-
-Placeholder text to edit later: [Add 2-4 sentences explaining your plugin implementation role, validation logic, and performance impact.]
 
 ## Links
 

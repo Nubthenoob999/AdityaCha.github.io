@@ -40,18 +40,14 @@ Repo link
 - Enables comparisons across design options by keeping the workflow consistent  
 
 ## My Contribution
-
-Resume details not provided yet  
-- [ADD DETAIL]  
-- [ADD DETAIL]  
-- [ADD DETAIL]  
+  
+- Utlized base code from the University of Waterloo, and created a simulation wrapper around it  
+- Added many more features to vary due to issues seen with my Club's past launches. THey range from varying wind speed, turbulance, and mass to Cd and simulting wind gusts.
+- Overhauled the landing dispersion with a 6DOF model that is translated from Python 
 
 ## Reflection Prompt
 
-Use this short narrative to summarize your contribution and growth:
-
-"In this project, I implemented [specific contribution] to address [technical challenge].
-I learned how to [skill gained], and the final outcome [result/impact] improved my ability to [future-facing competency]."
+In this Project I learned how to code with a vision in mind and carry out the ideas I wanted to explore. My club has had issues with the reliability of simulations from prior years so I took it upon myself to rectify these. I took some exsisting, trusted code base and modified it to fit our clubs needs. Now it has proven its worth with this prior VDF launch where we were able to predict the apogee and landing location within a 2 sigma confidence.   
 
 ## Technical Highlights
 
@@ -85,16 +81,16 @@ Typical outputs for a rocketry Monte Carlo workflow include
 
 <div class="portfolio-slideshow" data-slideshow="monte-carlo-gallery">
   <div class="portfolio-slideshow__viewport">
+    <figure class="portfolio-slide">
+      <img src="assets\images\projects\Plugin Dev\LandingPage.png" alt="Landing page" />
+      <figcaption>Placeholder caption: Add what this distribution says about outcome spread.</figcaption>
+    </figure>
     <figure class="portfolio-slide is-active">
-      <img src="/assets/images/projects/plugin-dev/Options.png" alt="Monte Carlo options and parameter controls" />
+      <img src="assets\images\projects\Plugin Dev\disturbances.png" alt="Options" />
       <figcaption>Placeholder caption: Add what simulation options you tuned for this run set.</figcaption>
     </figure>
     <figure class="portfolio-slide">
-      <img src="/assets/images/projects/plugin-dev/ORHistogramWithAirbrakes.png" alt="Histogram output from OpenRocket simulations" />
-      <figcaption>Placeholder caption: Add what this distribution says about outcome spread.</figcaption>
-    </figure>
-    <figure class="portfolio-slide">
-      <img src="/assets/images/projects/plugin-dev/LandingPage.png" alt="Workflow landing page context" />
+      <img src="assets\images\projects\Plugin Dev\MonteCarloLanding.png" alt="Landing distrobution" />
       <figcaption>Placeholder caption: Add where this sits in your end-to-end workflow.</figcaption>
     </figure>
   </div>
