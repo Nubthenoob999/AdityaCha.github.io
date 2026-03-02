@@ -28,7 +28,7 @@ This project began as a proposal-support request for one comparison figure and e
 
 Artifact classification  
 - Category: Academic artifact (CFD proposal project)  
-- Related HIE: [HIE 2: BEFAST Lab Research]({{ "/hie/befast-lab-research/" | relative_url }})
+- Related HIE: [BEFAST Lab Research]({{ "/hie/befast-lab-research/" | relative_url }})
 
 ## Problem Statement
 
