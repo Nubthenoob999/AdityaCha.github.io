@@ -1,13 +1,11 @@
 ---
-title: "HIE 3: HPRC Aerodynamics Lead"
+title: "HPRC Aerodynamics Lead"
 permalink: /hie/hprc-aerodynamics-lead/
 layout: single
 classes: wide
 toc: true
 toc_sticky: true
 ---
-
-This page documents my third High Impact Experience and is directly tied to my club leadership work in NC State’s High-Powered Rocketry Club (HPRC).
 
 <figure class="portfolio-media-hero">
 	<img src="/assets/images/projects/Hprc/ABM_0319.JPG" alt="HPRC team and vehicle during competition preparation" />
@@ -16,7 +14,7 @@ This page documents my third High Impact Experience and is directly tied to my c
 
 ## Experience Snapshot
 
-- **Experience type:** Student Leadership (High Impact Experience)
+- **Experience type:** Student Leadership 
 - **Role:** Aerodynamics Lead, High-Powered Rocketry Club (HPRC)
 - **Date range:** May 5, 2025 – Present
 - **Average hours/week:** 30

@@ -1,5 +1,5 @@
 ---
-title: "HIE 2: BEFAST Lab Research Experience"
+title: "BEFAST Lab Research Experience"
 permalink: /hie/befast-lab-research/
 layout: single
 classes: wide
@@ -7,11 +7,9 @@ toc: true
 toc_sticky: true
 ---
 
-This page documents my second High Impact Experience artifact with reflective, evidence-based project details.
-
 ## Experience Snapshot
 
-- **Experience type:** Research (High Impact Experience)
+- **Experience type:** Research
 - **Host organization:** Mechanical and Aerospace Engineering, NC State (BEFAST Lab)
 - **Date range:** May 5, 2025 – August 17, 2025 (Present)
 - **Average hours/week:** 40

@@ -7,8 +7,6 @@ toc: true
 toc_sticky: true
 ---
 
-This page documents my first High Impact Experience 
-
 ## Experience Snapshot
 
 - **Experience type:** Internship 
