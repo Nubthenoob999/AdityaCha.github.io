@@ -7,11 +7,11 @@ tags:
   - Aerospace
   - Simulation
 header:
-  overlay_image: /assets/images/projects/cfd-banner.svg
+  overlay_image: /assets/images/projects/BEFAST/AftSpike%20Streamline%20Mach%20Contour.png
   overlay_filter: "0.25"
   overlay_color: "#111827"
-  caption: "Replace this banner by updating assets images projects"
-teaser: /assets/images/projects/cfd-thumb.svg
+  caption: "BEFAST Lab CFD research"
+teaser: /assets/images/projects/BEFAST/AftSpike%20Streamline%20Mach%20Contour.png
 ---
 
 ## Overview

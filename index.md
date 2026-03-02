@@ -11,25 +11,25 @@ header:
     - label: "View Projects"
       url: /projects/
 feature_row:
-  - image_path: /assets/images/projects/plugin-dev/MonteCarloLanding.png
+  - image_path: /assets/images/projects/Plugin_Dev/MonteCarloLanding.png
     alt: "Monte Carlo simulation thumbnail"
     title: "OpenRocket Monte Carlo"
     excerpt: "Monte Carlo workflows for flight outcome dispersion and uncertainty exploration."
-    url: /AdityaCha.github.io/projects/openrocket-monte-carlo/
+    url: /projects/openrocket-monte-carlo/
     btn_label: "Read more"
     btn_class: "btn--primary"
-  - image_path: /assets/images/projects/plugin-dev/launch-vehicle-airbrakes-deployment.png
+  - image_path: /assets/images/projects/Plugin_Dev/launch-vehicle-airbrakes-deployment.png
     alt: "Airbrakes plugin thumbnail"
     title: "OpenRocket Airbrakes Plugin"
     excerpt: "Airbrake dynamics and aerodynamic effects integrated into simulation runs."
-    url: /AdityaCha.github.io/projects/openrocket-airbrakes-plugin/
+    url: /projects/openrocket-airbrakes-plugin/
     btn_label: "Read more"
     btn_class: "btn--primary"
   - image_path: /assets/images/projects/BEFAST/AftSpike%20Streamline%20Mach%20Contour.png
     alt: "CFD portfolio thumbnail"
     title: "CFD Projects and Aerothermal Analysis"
     excerpt: "A structured hub for external aero, internal flow, and aerothermal work."
-    url: /AdityaCha.github.io/projects/cfd-projects-aerothermal/
+    url: /projects/cfd-projects-aerothermal/
     btn_label: "Read more"
     btn_class: "btn--primary"
 ---

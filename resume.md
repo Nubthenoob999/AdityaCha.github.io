@@ -1,5 +1,5 @@
 ---
-title: "Resume"
+title: "Resume and Reflection"
 permalink: /resume/
 layout: single
 classes: wide
@@ -8,6 +8,9 @@ classes: wide
 ## Download
 Resume link  
 - [Aditya Chadha Resume PDF]({{ "/assets/resume/Chadha_Aditya_Resume.pdf" | relative_url }})
+
+Reflection Link
+- [Aditya Chadha Reflection PDF]({{ \assets\reflection\Reflection Essay.pdf" | relative_url }})
 
 ## Summary
 
