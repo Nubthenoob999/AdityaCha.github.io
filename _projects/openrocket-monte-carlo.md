@@ -21,7 +21,7 @@ This project supports Monte Carlo style runs around an OpenRocket based flight m
 
 <figure class="portfolio-media-hero">
   <img src="/assets/images/projects/Plugin_Dev/MonteCarloLanding.png" alt="OpenRocket Monte Carlo workflow landing interface" />
-  <figcaption>Placeholder caption: Add a one-sentence summary of what this top image shows in your workflow.</figcaption>
+  <figcaption></figcaption>
 </figure>
 
 Artifact classification  
@@ -58,7 +58,7 @@ In this Project I learned how to code with a vision in mind and carry out the id
 
 <figure class="portfolio-inline-media">
   <img src="/assets/images/projects/Plugin_Dev/disturbances.png" alt="Disturbance configuration view for Monte Carlo inputs" />
-  <figcaption>Placeholder caption: Add what uncertainty inputs are visible here and why they matter.</figcaption>
+  <figcaption></figcaption>
 </figure>
 
 ## How to Run
@@ -82,15 +82,19 @@ Typical outputs for a rocketry Monte Carlo workflow include
   <div class="portfolio-slideshow__viewport">
     <figure class="portfolio-slide is-active">
       <img src="{{ '/assets/images/projects/Plugin_Dev/LandingPage.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/LandingPage.png' | relative_url }}';" alt="Landing page" />
-      <figcaption>Placeholder caption: Add what this distribution says about outcome spread.</figcaption>
+      <figcaption></figcaption>
     </figure>
     <figure class="portfolio-slide">
       <img src="{{ '/assets/images/projects/Plugin_Dev/disturbances.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/disturbances.png' | relative_url }}';" alt="Options" />
-      <figcaption>Placeholder caption: Add what simulation options you tuned for this run set.</figcaption>
+      <figcaption></figcaption>
     </figure>
     <figure class="portfolio-slide">
       <img src="{{ '/assets/images/projects/Plugin_Dev/MonteCarloLanding.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/MonteCarloLanding.png' | relative_url }}';" alt="Landing distribution" />
-      <figcaption>Placeholder caption: Add where this sits in your end-to-end workflow.</figcaption>
+      <figcaption></figcaption>
+    </figure>
+    <figure class="portfolio-slide">
+      <img src="{{ 'assets\images\projects\Plugin_Dev\Vdf_2026_landing.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/Vdf_2026_landing.png' | relative_url }}';" alt="Landing distribution" />
+      <figcaption></figcaption>
     </figure>
   </div>
   <div class="portfolio-slideshow__controls">
