@@ -21,7 +21,7 @@ classes: wide
 This project extends OpenRocket with airbrake related behavior so simulations can account for drag changes from deployed surfaces. Implementations typically integrate into the simulation loop and use parameterized models or tabulated aerodynamic data.
 
 <figure class="portfolio-media-hero">
-  <img src="/assets/images/projects/plugin-dev/launch-vehicle-airbrakes-deployment.png" alt="Airbrakes deployment visualization in OpenRocket plugin workflow" />
+  <img src="{{ '/assets/images/projects/plugin-dev/launch-vehicle-airbrakes-deployment.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/Launch%20Vechile%20AirBrakes%20Deployment.png' | relative_url }}';" alt="Airbrakes deployment visualization in OpenRocket plugin workflow" />
   <figcaption>Placeholder caption: Add a one-line summary of what this deployment view validates.</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ Through implementation and validation, I developed [skill gained], and the proje
 - Configuration and serialization so designs can be shared and rerun  
 
 <figure class="portfolio-inline-media">
-  <img src="/assets/images/projects/plugin-dev/LandingPage.png" alt="Airbrakes plugin landing and configuration context" />
+  <img src="{{ '/assets/images/projects/plugin-dev/LandingPage.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/LandingPage.png' | relative_url }}';" alt="Airbrakes plugin landing and configuration context" />
   <figcaption>Placeholder caption: Add where this screen fits into your plugin configuration flow.</figcaption>
 </figure>
 
@@ -80,15 +80,15 @@ Responsible validation steps for a plugin like this usually include
 <div class="portfolio-slideshow" data-slideshow="airbrakes-gallery">
   <div class="portfolio-slideshow__viewport">
     <figure class="portfolio-slide is-active">
-      <img src="/assets/images/projects/plugin-dev/ORHistogramWithAirbrakes.png" alt="Airbrakes simulation histogram output" />
+      <img src="{{ '/assets/images/projects/plugin-dev/ORHistogramWithAirbrakes.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/ORHistogramWithAirbrakes.png' | relative_url }}';" alt="Airbrakes simulation histogram output" />
       <figcaption>Placeholder caption: Add what trend or tradeoff this output supports.</figcaption>
     </figure>
     <figure class="portfolio-slide">
-      <img src="/assets/images/projects/plugin-dev/Options.png" alt="Plugin options and parameter panel" />
+      <img src="{{ '/assets/images/projects/plugin-dev/Options.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/Options.png' | relative_url }}';" alt="Plugin options and parameter panel" />
       <figcaption>Placeholder caption: Add the key tunable parameters shown here.</figcaption>
     </figure>
     <figure class="portfolio-slide">
-      <img src="/assets/images/projects/plugin-dev/disturbances.png" alt="Input disturbances and simulation perturbation controls" />
+      <img src="{{ '/assets/images/projects/plugin-dev/disturbances.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/disturbances.png' | relative_url }}';" alt="Input disturbances and simulation perturbation controls" />
       <figcaption>Placeholder caption: Add how disturbance modeling influenced your validation runs.</figcaption>
     </figure>
   </div>
