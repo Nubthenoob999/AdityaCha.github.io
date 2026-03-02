@@ -67,7 +67,7 @@ In this Project I learned how to read documentation, garner advice from other pe
 ## Launch Video
 
 <figure class="portfolio-media-hero">
-  <video id="launch-video" src="{{ '/assets/images/projects/Plugin_Dev/Launch.mp4' | relative_url }}" style="width:100%;border-radius:6px;" preload="metadata">
+  <video id="launch-video" src="{{ '/assets/images/projects/Plugin_Dev/Launch.mp4' | relative_url }}" style="width:100%;border-radius:6px;" preload="metadata" playsinline>
     Your browser does not support the video tag.
   </video>
   <div style="margin-top:0.5rem;display:flex;gap:0.75rem;justify-content:center;">
@@ -78,23 +78,40 @@ In this Project I learned how to read documentation, garner advice from other pe
 </figure>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var video = document.getElementById("launch-video");
-    var playBtn = document.getElementById("launch-video-play-btn");
-    var pauseBtn = document.getElementById("launch-video-pause-btn");
+  (function () {
+    function initLaunchVideo() {
+      var video = document.getElementById("launch-video");
+      var playBtn = document.getElementById("launch-video-play-btn");
+      var pauseBtn = document.getElementById("launch-video-pause-btn");
 
-    if (playBtn && video) {
-      playBtn.addEventListener("click", function () {
-        video.play();
-      });
+      if (!video) return;
+
+      if (playBtn) {
+        playBtn.addEventListener("click", function () {
+          var playPromise = video.play();
+          if (playPromise !== undefined) {
+            playPromise.then(function () {
+              // playback started successfully
+            }).catch(function (err) {
+              console.warn("Video play failed:", err);
+            });
+          }
+        });
+      }
+
+      if (pauseBtn) {
+        pauseBtn.addEventListener("click", function () {
+          video.pause();
+        });
+      }
     }
 
-    if (pauseBtn && video) {
-      pauseBtn.addEventListener("click", function () {
-        video.pause();
-      });
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initLaunchVideo);
+    } else {
+      initLaunchVideo();
     }
-  });
+  })();
 </script>
 
 ## Validation Approach
