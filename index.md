@@ -15,21 +15,21 @@ feature_row:
     alt: "Monte Carlo simulation thumbnail"
     title: "OpenRocket Monte Carlo"
     excerpt: "Monte Carlo workflows for flight outcome dispersion and uncertainty exploration."
-    url: /projects/openrocket-monte-carlo/
+    url: /AdityaCha.github.io/projects/openrocket-monte-carlo/
     btn_label: "Read more"
     btn_class: "btn--primary"
   - image_path: /assets/images/projects/plugin-dev/launch-vehicle-airbrakes-deployment.png
     alt: "Airbrakes plugin thumbnail"
     title: "OpenRocket Airbrakes Plugin"
     excerpt: "Airbrake dynamics and aerodynamic effects integrated into simulation runs."
-    url: /projects/openrocket-airbrakes-plugin/
+    url: /AdityaCha.github.io/projects/openrocket-airbrakes-plugin/
     btn_label: "Read more"
     btn_class: "btn--primary"
   - image_path: /assets/images/projects/Hprc/DSC_0172.JPG
     alt: "CFD portfolio thumbnail"
     title: "CFD Projects and Aerothermal Analysis"
     excerpt: "A structured hub for external aero, internal flow, and aerothermal work."
-    url: /projects/cfd-projects-aerothermal/
+    url: /AdityaCha.github.io/projects/cfd-projects-aerothermal/
     btn_label: "Read more"
     btn_class: "btn--primary"
 ---
