@@ -10,7 +10,7 @@ Resume link
 - [Aditya Chadha Resume PDF]({{ "/assets/resume/Chadha_Aditya_Resume.pdf" | relative_url }})
 
 Reflection Link
-- [Aditya Chadha Reflection PDF]({{ \assets\reflection\Reflection Essay.pdf" | relative_url }})
+- [Aditya Chadha Reflection PDF]({{ "/assets/reflection/Reflection_Essay.pdf" | relative_url }})
 
 ## Summary
 
