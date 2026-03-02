@@ -25,7 +25,7 @@ feature_row:
     url: /AdityaCha.github.io/projects/openrocket-airbrakes-plugin/
     btn_label: "Read more"
     btn_class: "btn--primary"
-  - image_path: /assets/images/projects/Hprc/DSC_0172.JPG
+  - image_path: /assets/images/projects/BEFAST/AftSpike%20Streamline%20Mach%20Contour.png
     alt: "CFD portfolio thumbnail"
     title: "CFD Projects and Aerothermal Analysis"
     excerpt: "A structured hub for external aero, internal flow, and aerothermal work."
