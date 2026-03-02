@@ -15,9 +15,9 @@ This page summarizes my background, technical growth, and professional direction
 
 ## Experience
 
-### [Role Title] at [Organization]
-- Scope: [team/project context]  
-- Key actions: [tools, methods, deliverables]  
+### Aerodyanmics Lead at High Powered Rocketry Club
+- Scope: NASA Student Launch Rocketry competition  
+- Key actions: 
 - Measurable outcomes: [metric/result/impact]  
 
 ### [Role Title] at [Organization]
@@ -27,15 +27,15 @@ This page summarizes my background, technical growth, and professional direction
 
 ## Education
 
-- [Degree] at [School]  
-- Graduation: [Month Year]  
-- Relevant coursework: [Course 1], [Course 2], [Course 3]  
+- BS Aerospace Engineering at NC State University  
+- Graduation: May 2026
 
 ## Development Themes
 
 ### Technical and Analytical Growth
 - [CFD Aerospike Proposal and Thermal Trade Study]({{ "/projects/cfd-aerospike-proposal/" | relative_url }}) + translated thermal-fluids simulation outputs into material and integration decisions.  
-- [Artifact/reference] + one-line lesson learned  
+- Simulated fluid flow from mach 2 to mach 5 of two different aerospike desigs to quantify heat flux and heat load over the assembly. 
+- Further proved material selection for this use case. 
 
 ### Leadership and Collaboration
 - [HIE 3: HPRC Aerodynamics Lead]({{ "/hie/hprc-aerodynamics-lead/" | relative_url }}) + led a club subsystem team and improved integration discipline under competition pressure.  
@@ -50,6 +50,7 @@ This page summarizes my background, technical growth, and professional direction
 ### Software
 - Simulation workflow tooling  
 - Data post-processing and reporting  
+- CAD and CFD 
 
 ### Simulation and analysis
 - OpenRocket modeling and simulation workflows  
@@ -60,8 +61,11 @@ This page summarizes my background, technical growth, and professional direction
 ### Programming
 - Java  
 - Python  
-- [Additional language/tool from resume]  
+- MATLAB 
 
 ### Other
 - Technical communication  
 - Team coordination and project ownership
+- Leadership 
+- Eletronics Fabrication
+- Additive Manufacturing

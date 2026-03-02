@@ -7,11 +7,11 @@ toc: true
 toc_sticky: true
 ---
 
-This page documents my first High Impact Experience artifact with reflective and descriptive project context.
+This page documents my first High Impact Experience 
 
 ## Experience Snapshot
 
-- **Experience type:** Internship (High Impact Experience)
+- **Experience type:** Internship 
 - **Organization:** Ontic Engineering and Manufacturing
 - **Program:** Rural Works Internship Program
 - **Date range:** May 6, 2024 – July 27, 2024
@@ -48,6 +48,10 @@ This setback was a defining growth moment. I learned that strong research must b
 
 This internship clarified aerospace industry realities, improved my confidence in technical communication, and provided mentorship and professional references that support my long-term engineering path.
 
-## Reflective Caption (Ready to Reuse)
+## Reflection
 
 During my internship at Ontic Engineering and Manufacturing, I led feasibility analysis for a machine-vision inspection system intended to reduce waste and improve throughput. Although the final live demonstration exposed practical limitations that prevented deployment, the experience strengthened my research discipline, resilience, and communication with senior stakeholders. This HIE shifted how I evaluate engineering solutions: I now prioritize real-world validation and expectation management as much as initial technical promise.
+
+---
+
+![Ontic Engineering and Manufacturing](/assets/images/projects/Ontic)
