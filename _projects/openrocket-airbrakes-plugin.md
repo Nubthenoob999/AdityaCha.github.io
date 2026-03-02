@@ -64,6 +64,39 @@ In this Project I learned how to read documentation, garner advice from other pe
   <figcaption></figcaption>
 </figure>
 
+## Launch Video
+
+<figure class="portfolio-media-hero">
+  <video id="launch-video" src="{{ '/assets/images/projects/Plugin_Dev/Launch.mp4' | relative_url }}" style="width:100%;border-radius:6px;" preload="metadata">
+    Your browser does not support the video tag.
+  </video>
+  <div style="margin-top:0.5rem;display:flex;gap:0.75rem;justify-content:center;">
+    <button type="button" id="launch-video-play-btn" style="padding:0.4rem 1.2rem;cursor:pointer;">Play</button>
+    <button type="button" id="launch-video-pause-btn" style="padding:0.4rem 1.2rem;cursor:pointer;">Pause</button>
+  </div>
+  <figcaption>Launch footage — use the buttons above to play or pause.</figcaption>
+</figure>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var video = document.getElementById("launch-video");
+    var playBtn = document.getElementById("launch-video-play-btn");
+    var pauseBtn = document.getElementById("launch-video-pause-btn");
+
+    if (playBtn && video) {
+      playBtn.addEventListener("click", function () {
+        video.play();
+      });
+    }
+
+    if (pauseBtn && video) {
+      pauseBtn.addEventListener("click", function () {
+        video.pause();
+      });
+    }
+  });
+</script>
+
 ## Validation Approach
 
 Responsible validation steps for a plugin like this usually include  

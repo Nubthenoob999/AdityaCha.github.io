@@ -48,7 +48,7 @@ This internship clarified aerospace industry realities, improved my confidence i
 
 ## Reflection
 
-During my internship at Ontic Engineering and Manufacturing, I led feasibility analysis for a machine-vision inspection system intended to reduce waste and improve throughput. Although the final live demonstration exposed practical limitations that prevented deployment, the experience strengthened my research discipline, resilience, and communication with senior stakeholders. This HIE shifted how I evaluate engineering solutions: I now prioritize real-world validation and expectation management as much as initial technical promise.
+During my internship at Ontic Engineering and Manufacturing, I led feasibility analysis for a machine-vision inspection system intended to reduce waste and improve throughput. Although the final live demonstration exposed practical limitations that prevented deployment, the experience strengthened my research discipline, resilience, and communication with senior stakeholders. This shifted how I evaluate engineering solutions: I now prioritize real-world validation and expectation management as much as initial technical promise.
 
 ---
 

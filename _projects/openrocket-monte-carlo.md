@@ -93,13 +93,13 @@ Typical outputs for a rocketry Monte Carlo workflow include
       <figcaption></figcaption>
     </figure>
     <figure class="portfolio-slide">
-      <img src="{{ 'assets\images\projects\Plugin_Dev\Vdf_2026_landing.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/Vdf_2026_landing.png' | relative_url }}';" alt="Landing distribution" />
+      <img src="{{ '/assets/images/projects/Plugin_Dev/Vdf_2026_landing.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/projects/Plugin%20Dev/Vdf_2026_landing.png' | relative_url }}';" alt="Landing distribution" />
       <figcaption></figcaption>
     </figure>
   </div>
   <div class="portfolio-slideshow__controls">
     <button type="button" class="portfolio-slide-btn" data-action="prev" aria-label="Previous slide">Previous</button>
-    <span class="portfolio-slide-counter" aria-live="polite">1 / 3</span>
+    <span class="portfolio-slide-counter" aria-live="polite">1 / 4</span>
     <button type="button" class="portfolio-slide-btn" data-action="next" aria-label="Next slide">Next</button>
   </div>
 </div>
