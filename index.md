@@ -6,26 +6,26 @@ classes: wide
 header:
   overlay_color: "#111827"
   overlay_filter: "0.2"
-  overlay_image: /assets/images/projects/cfd-banner.svg
+  overlay_image: /assets/images/projects/Hprc/ABM_0319.JPG
   actions:
     - label: "View Projects"
       url: /projects/
 feature_row:
-  - image_path: /assets/images/projects/montecarlo-thumb.svg
+  - image_path: /assets/images/projects/plugin-dev/MonteCarloLanding.png
     alt: "Monte Carlo simulation thumbnail"
     title: "OpenRocket Monte Carlo"
     excerpt: "Monte Carlo workflows for flight outcome dispersion and uncertainty exploration."
     url: /projects/openrocket-monte-carlo/
     btn_label: "Read more"
     btn_class: "btn--primary"
-  - image_path: /assets/images/projects/airbrakes-thumb.svg
+  - image_path: /assets/images/projects/plugin-dev/launch-vehicle-airbrakes-deployment.png
     alt: "Airbrakes plugin thumbnail"
     title: "OpenRocket Airbrakes Plugin"
     excerpt: "Airbrake dynamics and aerodynamic effects integrated into simulation runs."
     url: /projects/openrocket-airbrakes-plugin/
     btn_label: "Read more"
     btn_class: "btn--primary"
-  - image_path: /assets/images/projects/cfd-thumb.svg
+  - image_path: /assets/images/projects/Hprc/DSC_0172.JPG
     alt: "CFD portfolio thumbnail"
     title: "CFD Projects and Aerothermal Analysis"
     excerpt: "A structured hub for external aero, internal flow, and aerothermal work."
@@ -36,11 +36,8 @@ feature_row:
 
 I’m **Aditya Chadha**. I build simulation tooling for aerospace workflows and I focus on analysis that drives flight decisions.
 
-Quick links  
-- Projects at [{{ "/projects/" | relative_url }}]({{ "/projects/" | relative_url }})  
-- Culminating Reflection at [{{ "/reflection/" | relative_url }}]({{ "/reflection/" | relative_url }})  
-- LinkedIn at https://www.linkedin.com/in/adityachadha03  
-- Email at adityachadha2203@gmail.com  
+LinkedIn: https://www.linkedin.com/in/adityachadha03  
+Email: adityachadha2203@gmail.com  
 
 ## Featured projects
 
@@ -71,5 +68,4 @@ Other
 
 - OpenRocket Monte Carlo workflow contribution for flight uncertainty exploration  
 - Airbrakes simulation plugin contribution for higher-fidelity trajectory studies  
-- CFD and aerothermal project organization for reusable analysis workflows  
-- Portfolio framework aligned to evidence, reflection, and presentation readiness
+- CFD and aerothermal project organization for reusable analysis workflows

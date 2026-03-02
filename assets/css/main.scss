@@ -1,7 +1,3 @@
----
-# Only the main Sass file needs front matter
----
-
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
@@ -389,14 +385,14 @@ hr {
 .portfolio-media-hero,
 .portfolio-inline-media,
 .portfolio-video,
-.portfolio-gallery {
+.portfolio-slideshow {
   max-width: var(--measure);
   margin: 1.15rem auto;
 }
 
 .portfolio-media-hero img,
 .portfolio-inline-media img,
-.portfolio-gallery img,
+.portfolio-slideshow img,
 .portfolio-video video {
   width: 100%;
   height: auto;
@@ -406,42 +402,59 @@ hr {
 
 .portfolio-media-hero figcaption,
 .portfolio-inline-media figcaption,
-.portfolio-gallery figcaption,
+.portfolio-slideshow figcaption,
 .portfolio-video figcaption {
   color: var(--muted);
   font-size: 0.92rem;
   margin-top: 0.45rem;
 }
 
-.portfolio-gallery {
+.portfolio-slideshow {
   background: var(--surface-1);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0.9rem;
+  padding: 0.8rem;
 }
 
-.portfolio-gallery__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 0.8rem;
+.portfolio-slideshow__viewport {
+  min-height: 300px;
 }
 
-.portfolio-gallery__item {
+.portfolio-slide {
+  display: none;
+  margin: 0;
+}
+
+.portfolio-slide.is-active {
   display: block;
-  text-decoration: none;
 }
 
-.portfolio-gallery__item img {
-  display: block;
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  transition: transform 140ms ease;
+.portfolio-slideshow__controls {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 0.75rem;
 }
 
-.portfolio-gallery__item:hover img,
-.portfolio-gallery__item:focus-visible img {
-  transform: scale(1.02);
+.portfolio-slide-btn {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 0.35rem 0.65rem;
+  cursor: pointer;
+}
+
+.portfolio-slide-btn:hover,
+.portfolio-slide-btn:focus-visible {
+  background: var(--surface-1);
+}
+
+.portfolio-slide-counter {
+  color: var(--muted);
+  align-self: center;
+  min-width: 4.6rem;
+  text-align: center;
 }
 
 /* Center the main layout wrappers, reduce side spacing, and center the constrained text blocks. Also add front matter at the top so Jekyll compiles this SCSS. */

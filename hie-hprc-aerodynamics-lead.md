@@ -10,7 +10,7 @@ toc_sticky: true
 This page documents my third High Impact Experience and is directly tied to my club leadership work in NC State’s High-Powered Rocketry Club (HPRC).
 
 <figure class="portfolio-media-hero">
-	<img src="{{ '/assets/images/projects/Hprc/ABM_0319.JPG' | relative_url }}" alt="HPRC team and vehicle during competition preparation" />
+	<img src="/assets/images/projects/Hprc/ABM_0319.JPG" alt="HPRC team and vehicle during competition preparation" />
 	<figcaption>Placeholder caption: Add a one-sentence overview of this lead image and why it represents your leadership role.</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ I have been active in HPRC for over three years, starting in my first year throu
 - Supported competition execution and stepped into additional aerodynamics responsibility during travel when needed
 
 <figure class="portfolio-inline-media">
-	<img src="{{ '/assets/images/projects/Hprc/ABM_0160.JPG' | relative_url }}" alt="HPRC rocket hardware and subsystem context" />
+	<img src="/assets/images/projects/Hprc/ABM_0160.JPG" alt="HPRC rocket hardware and subsystem context" />
 	<figcaption>Placeholder caption: Describe what subsystem state is shown here and what decision this phase informed.</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ I have been active in HPRC for over three years, starting in my first year throu
 The most difficult part of this role was balancing technical ownership with people management while also handling senior design, coursework, testing, and personal workload. I learned how to prioritize under pressure, set clearer expectations, and keep subsystem work aligned to full-vehicle milestones.
 
 <figure class="portfolio-inline-media">
-	<img src="{{ '/assets/images/projects/Hprc/DSC_0198.JPG' | relative_url }}" alt="HPRC on-site execution and team operations" />
+	<img src="/assets/images/projects/Hprc/DSC_0198.JPG" alt="HPRC on-site execution and team operations" />
 	<figcaption>Placeholder caption: Add a short reflection connecting this moment to communication under pressure.</figcaption>
 </figure>
 
@@ -72,23 +72,23 @@ As Aerodynamics Lead in NC State’s High-Powered Rocketry Club, I guided simula
 <div class="portfolio-slideshow" data-slideshow="hprc-gallery">
 	<div class="portfolio-slideshow__viewport">
 		<figure class="portfolio-slide is-active">
-			<img src="{{ '/assets/images/projects/Hprc/20250407_151005.jpg' | relative_url }}" alt="HPRC team setup in the field" />
+			<img src="/assets/images/projects/Hprc/20250407_151005.jpg" alt="HPRC team setup in the field" />
 			<figcaption>Placeholder caption: Add context for this setup stage and your responsibilities.</figcaption>
 		</figure>
 		<figure class="portfolio-slide">
-			<img src="{{ '/assets/images/projects/Hprc/ABM_0019.JPG' | relative_url }}" alt="Rocket integration close-up" />
+			<img src="/assets/images/projects/Hprc/ABM_0019.JPG" alt="Rocket integration close-up" />
 			<figcaption>Placeholder caption: Add a technical note about integration constraints or checks.</figcaption>
 		</figure>
 		<figure class="portfolio-slide">
-			<img src="{{ '/assets/images/projects/Hprc/ABM_0110.JPG' | relative_url }}" alt="Rocket subsystem view" />
+			<img src="/assets/images/projects/Hprc/ABM_0110.JPG" alt="Rocket subsystem view" />
 			<figcaption>Placeholder caption: Add what stage of prep this image represents.</figcaption>
 		</figure>
 		<figure class="portfolio-slide">
-			<img src="{{ '/assets/images/projects/Hprc/ABM_0465.JPG' | relative_url }}" alt="Team operations during event" />
+			<img src="/assets/images/projects/Hprc/ABM_0465.JPG" alt="Team operations during event" />
 			<figcaption>Placeholder caption: Add one leadership takeaway from this moment.</figcaption>
 		</figure>
 		<figure class="portfolio-slide">
-			<img src="{{ '/assets/images/projects/Hprc/DSC_0172.JPG' | relative_url }}" alt="Field execution environment" />
+			<img src="/assets/images/projects/Hprc/DSC_0172.JPG" alt="Field execution environment" />
 			<figcaption>Placeholder caption: Add what changed in your process after this phase.</figcaption>
 		</figure>
 	</div>
@@ -102,12 +102,14 @@ As Aerodynamics Lead in NC State’s High-Powered Rocketry Club, I guided simula
 ## HPRC Video Highlight (First 30 Seconds)
 
 <figure class="portfolio-video">
-	<video id="hprc-highlight-video" controls preload="metadata">
-		<source src="{{ '/assets/images/projects/Hprc/vdf-2026.mp4' | relative_url }}#t=0,30" type="video/mp4" />
+	<video controls preload="metadata" playsinline>
+		<source src="/assets/images/projects/Hprc/VDF_2026.mp4#t=0,30" type="video/mp4" />
 		Your browser does not support the video tag.
 	</video>
 	<figcaption>Placeholder caption: Add what this clip demonstrates and why this 30-second segment matters.</figcaption>
 </figure>
+
+[Open video directly](/assets/images/projects/Hprc/VDF_2026.mp4)
 
 Placeholder text to edit later: [Add 2-3 sentences connecting this footage to decision-making, team execution, and leadership growth.]
 
@@ -149,15 +151,5 @@ Placeholder text to edit later: [Add 2-3 sentences connecting this footage to de
 			render(currentIndex);
 		});
 
-		const video = document.getElementById("hprc-highlight-video");
-		if (video && video.dataset.initialized !== "true") {
-			video.dataset.initialized = "true";
-			video.addEventListener("timeupdate", function () {
-				if (video.currentTime >= 30) {
-					video.pause();
-					video.currentTime = 30;
-				}
-			});
-		}
 	});
 </script>

@@ -20,7 +20,7 @@ classes: wide
 This project supports Monte Carlo style runs around an OpenRocket based flight model to study how uncertainty affects outcomes. Typical inputs include variability in mass properties, aerodynamic parameters, launch conditions, and wind profiles. Typical outputs include distributions of apogee and other flight metrics.
 
 <figure class="portfolio-media-hero">
-  <img src="{{ '/assets/images/projects/plugin-dev/MonteCarloLanding.png' | relative_url }}" alt="OpenRocket Monte Carlo workflow landing interface" />
+  <img src="/assets/images/projects/plugin-dev/MonteCarloLanding.png" alt="OpenRocket Monte Carlo workflow landing interface" />
   <figcaption>Placeholder caption: Add a one-sentence summary of what this top image shows in your workflow.</figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ I learned how to [skill gained], and the final outcome [result/impact] improved 
 - Reproducibility features such as fixed seeds and saved configs  
 
 <figure class="portfolio-inline-media">
-  <img src="{{ '/assets/images/projects/plugin-dev/disturbances.png' | relative_url }}" alt="Disturbance configuration view for Monte Carlo inputs" />
+  <img src="/assets/images/projects/plugin-dev/disturbances.png" alt="Disturbance configuration view for Monte Carlo inputs" />
   <figcaption>Placeholder caption: Add what uncertainty inputs are visible here and why they matter.</figcaption>
 </figure>
 
@@ -81,19 +81,27 @@ Typical outputs for a rocketry Monte Carlo workflow include
 - Sensitivity views such as correlation of apogee to input uncertainties  
 - Exported CSV or JSON artifacts for report generation
 
-## Monte Carlo Gallery
+## Monte Carlo Slideshow
 
-<div class="portfolio-gallery">
-  <div class="portfolio-gallery__grid">
-    <a class="portfolio-gallery__item" href="{{ '/assets/images/projects/plugin-dev/Options.png' | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ '/assets/images/projects/plugin-dev/Options.png' | relative_url }}" alt="Monte Carlo options and parameter controls" />
-    </a>
-    <a class="portfolio-gallery__item" href="{{ '/assets/images/projects/plugin-dev/ORHistogramWithAirbrakes.png' | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ '/assets/images/projects/plugin-dev/ORHistogramWithAirbrakes.png' | relative_url }}" alt="Histogram output from OpenRocket simulations" />
-    </a>
-    <a class="portfolio-gallery__item" href="{{ '/assets/images/projects/plugin-dev/LandingPage.png' | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ '/assets/images/projects/plugin-dev/LandingPage.png' | relative_url }}" alt="Workflow landing page context" />
-    </a>
+<div class="portfolio-slideshow" data-slideshow="monte-carlo-gallery">
+  <div class="portfolio-slideshow__viewport">
+    <figure class="portfolio-slide is-active">
+      <img src="/assets/images/projects/plugin-dev/Options.png" alt="Monte Carlo options and parameter controls" />
+      <figcaption>Placeholder caption: Add what simulation options you tuned for this run set.</figcaption>
+    </figure>
+    <figure class="portfolio-slide">
+      <img src="/assets/images/projects/plugin-dev/ORHistogramWithAirbrakes.png" alt="Histogram output from OpenRocket simulations" />
+      <figcaption>Placeholder caption: Add what this distribution says about outcome spread.</figcaption>
+    </figure>
+    <figure class="portfolio-slide">
+      <img src="/assets/images/projects/plugin-dev/LandingPage.png" alt="Workflow landing page context" />
+      <figcaption>Placeholder caption: Add where this sits in your end-to-end workflow.</figcaption>
+    </figure>
+  </div>
+  <div class="portfolio-slideshow__controls">
+    <button type="button" class="portfolio-slide-btn" data-action="prev" aria-label="Previous slide">Previous</button>
+    <span class="portfolio-slide-counter" aria-live="polite">1 / 3</span>
+    <button type="button" class="portfolio-slide-btn" data-action="next" aria-label="Next slide">Next</button>
   </div>
 </div>
 
@@ -103,3 +111,43 @@ Placeholder text to edit later: [Add 2-4 sentences describing your Monte Carlo p
 
 - Detailed repo documentation at https://github.com/NCSU-High-Powered-Rocketry-Club/OpenRocket-Monte-Carlo  
 - Project list at [{{ "/projects/" | relative_url }}]({{ "/projects/" | relative_url }})
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const galleries = document.querySelectorAll(".portfolio-slideshow");
+    galleries.forEach(function (gallery) {
+      if (gallery.dataset.initialized === "true") return;
+      gallery.dataset.initialized = "true";
+
+      const slides = Array.from(gallery.querySelectorAll(".portfolio-slide"));
+      const counter = gallery.querySelector(".portfolio-slide-counter");
+      const prevBtn = gallery.querySelector('[data-action="prev"]');
+      const nextBtn = gallery.querySelector('[data-action="next"]');
+
+      let currentIndex = 0;
+
+      function render(index) {
+        slides.forEach(function (slide, idx) {
+          slide.classList.toggle("is-active", idx === index);
+        });
+        if (counter) counter.textContent = (index + 1) + " / " + slides.length;
+      }
+
+      if (prevBtn) {
+        prevBtn.addEventListener("click", function () {
+          currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+          render(currentIndex);
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener("click", function () {
+          currentIndex = (currentIndex + 1) % slides.length;
+          render(currentIndex);
+        });
+      }
+
+      render(currentIndex);
+    });
+  });
+</script>

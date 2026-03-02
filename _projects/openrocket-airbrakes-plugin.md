@@ -21,7 +21,7 @@ classes: wide
 This project extends OpenRocket with airbrake related behavior so simulations can account for drag changes from deployed surfaces. Implementations typically integrate into the simulation loop and use parameterized models or tabulated aerodynamic data.
 
 <figure class="portfolio-media-hero">
-  <img src="{{ '/assets/images/projects/plugin-dev/launch-vehicle-airbrakes-deployment.png' | relative_url }}" alt="Airbrakes deployment visualization in OpenRocket plugin workflow" />
+  <img src="/assets/images/projects/plugin-dev/launch-vehicle-airbrakes-deployment.png" alt="Airbrakes deployment visualization in OpenRocket plugin workflow" />
   <figcaption>Placeholder caption: Add a one-line summary of what this deployment view validates.</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ Through implementation and validation, I developed [skill gained], and the proje
 - Configuration and serialization so designs can be shared and rerun  
 
 <figure class="portfolio-inline-media">
-  <img src="{{ '/assets/images/projects/plugin-dev/LandingPage.png' | relative_url }}" alt="Airbrakes plugin landing and configuration context" />
+  <img src="/assets/images/projects/plugin-dev/LandingPage.png" alt="Airbrakes plugin landing and configuration context" />
   <figcaption>Placeholder caption: Add where this screen fits into your plugin configuration flow.</figcaption>
 </figure>
 
@@ -75,19 +75,27 @@ Responsible validation steps for a plugin like this usually include
 - Flight data comparison if instrumentation and logs are available  
 - Sensitivity checks across step size and solver settings
 
-## Airbrakes Gallery
+## Airbrakes Slideshow
 
-<div class="portfolio-gallery">
-  <div class="portfolio-gallery__grid">
-    <a class="portfolio-gallery__item" href="{{ '/assets/images/projects/plugin-dev/ORHistogramWithAirbrakes.png' | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ '/assets/images/projects/plugin-dev/ORHistogramWithAirbrakes.png' | relative_url }}" alt="Airbrakes simulation histogram output" />
-    </a>
-    <a class="portfolio-gallery__item" href="{{ '/assets/images/projects/plugin-dev/Options.png' | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ '/assets/images/projects/plugin-dev/Options.png' | relative_url }}" alt="Plugin options and parameter panel" />
-    </a>
-    <a class="portfolio-gallery__item" href="{{ '/assets/images/projects/plugin-dev/disturbances.png' | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ '/assets/images/projects/plugin-dev/disturbances.png' | relative_url }}" alt="Input disturbances and simulation perturbation controls" />
-    </a>
+<div class="portfolio-slideshow" data-slideshow="airbrakes-gallery">
+  <div class="portfolio-slideshow__viewport">
+    <figure class="portfolio-slide is-active">
+      <img src="/assets/images/projects/plugin-dev/ORHistogramWithAirbrakes.png" alt="Airbrakes simulation histogram output" />
+      <figcaption>Placeholder caption: Add what trend or tradeoff this output supports.</figcaption>
+    </figure>
+    <figure class="portfolio-slide">
+      <img src="/assets/images/projects/plugin-dev/Options.png" alt="Plugin options and parameter panel" />
+      <figcaption>Placeholder caption: Add the key tunable parameters shown here.</figcaption>
+    </figure>
+    <figure class="portfolio-slide">
+      <img src="/assets/images/projects/plugin-dev/disturbances.png" alt="Input disturbances and simulation perturbation controls" />
+      <figcaption>Placeholder caption: Add how disturbance modeling influenced your validation runs.</figcaption>
+    </figure>
+  </div>
+  <div class="portfolio-slideshow__controls">
+    <button type="button" class="portfolio-slide-btn" data-action="prev" aria-label="Previous slide">Previous</button>
+    <span class="portfolio-slide-counter" aria-live="polite">1 / 3</span>
+    <button type="button" class="portfolio-slide-btn" data-action="next" aria-label="Next slide">Next</button>
   </div>
 </div>
 
@@ -97,3 +105,43 @@ Placeholder text to edit later: [Add 2-4 sentences explaining your plugin implem
 
 - Repo at https://github.com/NCSU-High-Powered-Rocketry-Club/OpenRocket-Airbrakes-Plugin  
 - Project list at [{{ "/projects/" | relative_url }}]({{ "/projects/" | relative_url }})
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const galleries = document.querySelectorAll(".portfolio-slideshow");
+    galleries.forEach(function (gallery) {
+      if (gallery.dataset.initialized === "true") return;
+      gallery.dataset.initialized = "true";
+
+      const slides = Array.from(gallery.querySelectorAll(".portfolio-slide"));
+      const counter = gallery.querySelector(".portfolio-slide-counter");
+      const prevBtn = gallery.querySelector('[data-action="prev"]');
+      const nextBtn = gallery.querySelector('[data-action="next"]');
+
+      let currentIndex = 0;
+
+      function render(index) {
+        slides.forEach(function (slide, idx) {
+          slide.classList.toggle("is-active", idx === index);
+        });
+        if (counter) counter.textContent = (index + 1) + " / " + slides.length;
+      }
+
+      if (prevBtn) {
+        prevBtn.addEventListener("click", function () {
+          currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+          render(currentIndex);
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener("click", function () {
+          currentIndex = (currentIndex + 1) % slides.length;
+          render(currentIndex);
+        });
+      }
+
+      render(currentIndex);
+    });
+  });
+</script>
