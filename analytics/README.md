@@ -7,6 +7,7 @@ This folder contains private reporting code for your portfolio site.
 1. Tracks page views through Google Analytics 4 on your site.
 2. Runs a GitHub Action once a day.
 3. Sends an email report only to your configured email address.
+4. Automatically syncs report recipient from `contact.md` into `_config.yml`.
 
 ## 1) Configure tracking in `_config.yml`
 
@@ -28,7 +29,6 @@ In your repository settings, add these secrets:
 - `GA_PROPERTY_ID`
 - `GA_CLIENT_EMAIL`
 - `GA_PRIVATE_KEY` (paste private key text with literal newlines)
-- `REPORT_TO_EMAIL`
 - `REPORT_FROM_EMAIL`
 - `SMTP_HOST`
 - `SMTP_PORT`

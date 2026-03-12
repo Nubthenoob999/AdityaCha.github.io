@@ -45,8 +45,16 @@ async function run() {
   const gaClientEmail = requireEnv("GA_CLIENT_EMAIL");
   const gaPrivateKey = parsePrivateKey(requireEnv("GA_PRIVATE_KEY"));
 
-  const reportToEmail = requireEnv("REPORT_TO_EMAIL");
-  const reportFromEmail = requireEnv("REPORT_FROM_EMAIL");
+  const authorEmail = (process.env.AUTHOR_EMAIL || "").trim();
+  const reportToEmail = (process.env.REPORT_TO_EMAIL || authorEmail).trim();
+  if (!reportToEmail) {
+    throw new Error("Missing report recipient. Set REPORT_TO_EMAIL or AUTHOR_EMAIL.");
+  }
+
+  const reportFromEmail = (process.env.REPORT_FROM_EMAIL || reportToEmail).trim();
+  if (!reportFromEmail) {
+    throw new Error("Missing sender email. Set REPORT_FROM_EMAIL.");
+  }
   const smtpHost = requireEnv("SMTP_HOST");
   const smtpPort = Number(requireEnv("SMTP_PORT"));
   const smtpSecure = String(process.env.SMTP_SECURE || "true").toLowerCase() === "true";
@@ -190,7 +198,7 @@ async function run() {
     html: htmlBody
   });
 
-  console.log(`Report sent to ${reportToEmail} for ${reportDateHuman}.`);
+  console.log(`Report sent for ${reportDateHuman}.`);
 }
 
 run().catch((err) => {

@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Daily private GA4 analytics reporting",
   "scripts": {
+    "sync-email": "node sync-contact-email-to-config.mjs",
     "report": "node daily-report.mjs"
   },
   "dependencies": {

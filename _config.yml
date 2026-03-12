@@ -64,6 +64,8 @@ analytics_report:
   # Set this to your GA4 property numeric ID, for example: 123456789
   property_id: ""
   timezone: "America/New_York"
+  # Daily report recipient defaults to your existing site contact email.
+  report_to_email: ""
 
 # GitHub Pages baseurl notes
 # User site set baseurl to empty string

@@ -25,6 +25,10 @@ jobs:
         working-directory: analytics
         run: npm install
 
+      - name: Sync report email from contact.md
+        working-directory: analytics
+        run: npm run sync-email
+
       - name: Send daily report email
         working-directory: analytics
         env:
@@ -32,7 +36,7 @@ jobs:
           GA_CLIENT_EMAIL: ${{ secrets.GA_CLIENT_EMAIL }}
           GA_PRIVATE_KEY: ${{ secrets.GA_PRIVATE_KEY }}
 
-          REPORT_TO_EMAIL: ${{ secrets.REPORT_TO_EMAIL }}
+          # REPORT_TO_EMAIL is populated by the sync-email step via GITHUB_ENV.
           REPORT_FROM_EMAIL: ${{ secrets.REPORT_FROM_EMAIL }}
 
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
