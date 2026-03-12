@@ -1,0 +1,47 @@
+name: Daily Private Analytics Report
+
+on:
+  schedule:
+    # 14:10 UTC daily. Adjust if you want a different send time.
+    - cron: "10 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  send-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install report dependencies
+        working-directory: analytics
+        run: npm install
+
+      - name: Send daily report email
+        working-directory: analytics
+        env:
+          GA_PROPERTY_ID: ${{ secrets.GA_PROPERTY_ID }}
+          GA_CLIENT_EMAIL: ${{ secrets.GA_CLIENT_EMAIL }}
+          GA_PRIVATE_KEY: ${{ secrets.GA_PRIVATE_KEY }}
+
+          REPORT_TO_EMAIL: ${{ secrets.REPORT_TO_EMAIL }}
+          REPORT_FROM_EMAIL: ${{ secrets.REPORT_FROM_EMAIL }}
+
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_SECURE: ${{ secrets.SMTP_SECURE }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+
+          SITE_NAME: "Aditya Chadha Portfolio"
+          SITE_URL: "https://nubthenoob999.github.io/AdityaCha.github.io"
+          REPORT_TIMEZONE: "America/New_York"
+        run: npm run report

@@ -56,6 +56,15 @@ defaults:
 include:
   - _pages
 
+# Private analytics configuration
+# Set this to your GA4 measurement ID, for example: G-XXXXXXXXXX
+ga_measurement_id: ""
+
+analytics_report:
+  # Set this to your GA4 property numeric ID, for example: 123456789
+  property_id: ""
+  timezone: "America/New_York"
+
 # GitHub Pages baseurl notes
 # User site set baseurl to empty string
 # Project site set baseurl to "/REPO"
