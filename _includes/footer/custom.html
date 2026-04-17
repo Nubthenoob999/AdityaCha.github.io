@@ -1,0 +1,9 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".masthead-dropdown > summary").forEach(function (summary) {
+      summary.addEventListener("click", function (event) {
+        event.stopPropagation();
+      });
+    });
+  });
+</script>

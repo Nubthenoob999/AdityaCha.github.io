@@ -5,6 +5,12 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
+  - title: "Honors"
+    children:
+      - title: "Honors Project One"
+        url: /hie/honors-project-one/
+      - title: "Honors Project Two"
+        url: /hie/honors-project-two/
   - title: "Resume"
     url: /resume/
   - title: "Contact"
