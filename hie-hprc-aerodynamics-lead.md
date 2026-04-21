@@ -101,7 +101,7 @@ As Aerodynamics Lead in NC State’s High-Powered Rocketry Club, I guided simula
 
 <figure class="portfolio-video">
 	<div class="portfolio-video__inner">
-		<video controls preload="metadata" playsinline>
+		<video controls preload="metadata" playsinline disablepictureinpicture>
 			<source src="/assets/images/projects/Hprc/VDF_2026.mp4" type="video/mp4" />
 			Your browser does not support the video tag.
 		</video>
