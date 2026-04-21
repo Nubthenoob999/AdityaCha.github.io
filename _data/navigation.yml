@@ -6,11 +6,7 @@ main:
   - title: "Projects"
     url: /projects/
   - title: "Honors"
-    children:
-      - title: "Honors Project One"
-        url: /hie/honors-project-one/
-      - title: "Honors Project Two"
-        url: /hie/honors-project-two/
+    url: /hie/honors-project-one/
   - title: "Resume"
     url: /resume/
   - title: "Contact"

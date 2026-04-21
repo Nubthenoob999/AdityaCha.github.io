@@ -100,11 +100,13 @@ As Aerodynamics Lead in NC State’s High-Powered Rocketry Club, I guided simula
 ## HPRC Video Highlight (First 30 Seconds)
 
 <figure class="portfolio-video">
-	<video controls preload="metadata" playsinline>
-		<source src="/assets/images/projects/Hprc/VDF_2026.mp4#t=0,30" type="video/mp4" />
-		Your browser does not support the video tag.
-	</video>
-	<figcaption>Placeholder caption: Add what this clip demonstrates and why this 30-second segment matters.</figcaption>
+	<div class="portfolio-video__inner">
+		<video controls preload="metadata" playsinline>
+			<source src="/assets/images/projects/Hprc/VDF_2026.mp4" type="video/mp4" />
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<figcaption>Placeholder caption: Add what this clip demonstrates and why this segment matters.</figcaption>
 </figure>
 
 [Open video directly](/assets/images/projects/Hprc/VDF_2026.mp4)

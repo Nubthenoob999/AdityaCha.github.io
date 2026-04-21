@@ -52,4 +52,4 @@ During my internship at Ontic Engineering and Manufacturing, I led feasibility a
 
 ---
 
-![Ontic Engineering and Manufacturing](/assets/images/projects/Ontic)
+![Ontic Engineering and Manufacturing](/assets/images/projects/Ontic/IMG_1317.PNG)
