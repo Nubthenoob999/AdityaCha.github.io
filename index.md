@@ -36,8 +36,8 @@ feature_row:
 
 I’m **Aditya Chadha**. I build simulation tooling for aerospace workflows and I focus on analysis that drives flight decisions.
 
-LinkedIn: https://www.linkedin.com/in/adityachadha03  
-Email: adityachadha2203@gmail.com  
+- [Connect on LinkedIn](https://www.linkedin.com/in/adityachadha03)
+- [Send email](mailto:adityachadha2203@gmail.com)
 
 ## Featured projects
 

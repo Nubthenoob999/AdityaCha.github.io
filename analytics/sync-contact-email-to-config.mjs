@@ -2,8 +2,13 @@ import fs from "node:fs";
 import path from "node:path";
 
 function extractEmailFromContact(contactText) {
+  const mailtoMatch = contactText.match(/mailto:([A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,})/i);
+  if (mailtoMatch?.[1]) {
+    return mailtoMatch[1].trim();
+  }
+
   // Prefer email listed under the "Email" section.
-  const sectionMatch = contactText.match(/\nEmail\s*\r?\n\s*-\s*([^\s]+@[^\s]+)/i);
+  const sectionMatch = contactText.match(/\nEmail\s*\r?\n\s*-\s*(?:\[.+?\]\()?([A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,})/i);
   if (sectionMatch?.[1]) {
     return sectionMatch[1].trim();
   }
